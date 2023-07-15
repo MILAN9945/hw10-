@@ -6,26 +6,9 @@ a {
     text-decoration: none;
 }
 
-.contair {
-    width: 1230px;
-    padding-left: 15px;
-    padding-right: 15px;
-    outline: solid red;
-    margin-left: auto;
-    margin-right: auto;
-}
 
-.logo {
-    color: #2196F3;
-    font-family: 'Raleway';
-    font-weight: 700;
-    font-size: 26px;
-    text-decoration: none;
-    letter-spacing: 0.03em;
-    line-height: 1.19;
-}
 
-.header-logo {
+ .header-logo {
     color: #000000;
     font-family: 'Raleway';
     font-weight: 700;
@@ -33,7 +16,7 @@ a {
     text-decoration: none;
     letter-spacing: 0.03em;
     line-height: 1.19;
-}
+} 
 
 .header-link {
 
@@ -63,7 +46,6 @@ a {
 
     color: #FFFFFF;
 
-    background: #2F303A;
 }
 
 .hero-button {
