@@ -12,11 +12,10 @@ a {
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-    outline: solid red;
+
 }
 
-.heder-contair {
-
+.header-container {
     display: flex;
     align-items: center;
     height: 80px;
@@ -31,7 +30,7 @@ a {
     letter-spacing: 0.03em;
     line-height: 1.19;
 }
-
+/* хедер */
 .header-logo {
     color: #000000;
     font-family: 'Raleway';
@@ -144,6 +143,11 @@ a {
     letter-spacing: 0.03em;
 
     color: #212121;
+}
+
+.work.text{
+
+    text-decoration: none;
 }
 
 .team-title {
