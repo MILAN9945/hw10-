@@ -5,16 +5,29 @@ body {
 a {
     text-decoration: none;
 }
+
 /* хедер */
-.container {
+.contair {
     width: 1200px;
     padding-left: 15px;
-        padding-right: 15px;
-        outline: solid red;
-        margin-left: auto;
-        margin-right: auto;
-}
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+} 
 
+.header-l {
+    height: 160px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    display: flex;
+    background: #FFF;
+    
+  
+}
+.a{
+    text-decoration: none;
+}
 
 .logo {
     color: #2196F3;
@@ -36,32 +49,13 @@ a {
     line-height: normal;
     letter-spacing: 0.78px;
 
-padding-left:215px ;
-padding-right:1240px ;
+    padding-left: 215px;
+    padding-right: 1240px;
+    padding: 20px;
 }
 
 
 .header-link1 {
-
-   color: gray;
-font-family: Roboto;
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-letter-spacing: 0.28px;
-max-width: 32px;
-
-padding-left: 453px;
-padding-right: 1102px;
-
-}
-
-.header-link1:hover {
-    color: #2196F3;
-}
-
-.header-link2 {
 
     color: gray;
     font-family: Roboto;
@@ -78,6 +72,32 @@ padding-right: 1102px;
 }
 
 .header-link1:hover {
+    color: #2196F3;
+}
+
+.header-link1 {
+    text-decoration: none;
+}
+
+
+
+.header-link2 {
+
+    color: gray;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    max-width: 32px;
+
+    padding-left: 548px;
+    padding-right: 980px;
+
+}
+
+.header-link2:hover {
     color: #2196F3;
 }
 
@@ -92,16 +112,26 @@ padding-right: 1102px;
     letter-spacing: 0.28px;
     max-width: 32px;
 
-    padding-left: 453px;
-    padding-right: 1102px;
+    padding-left: 670px;
+    padding-right: 866px;
 
 }
 
-.header-link1:hover {
+.header-link3:hover {
     color: #2196F3;
 }
 
 /* герой */
+
+.hero {
+    background-color: #2F303A;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    padding-left: auto;
+    padding-right: auto;
+}
+
 .hero-title {
     width: 696px;
 
@@ -115,9 +145,8 @@ padding-right: 1102px;
     /* 136.364% */
     letter-spacing: 2.64px;
     text-transform: uppercase;
-    padding-left: 452px;
-    padding-right: 452px;
-
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .hero-button {
@@ -135,14 +164,16 @@ padding-right: 1102px;
     /* 187.5% */
     letter-spacing: 0.96px;
 
+    display: block;
+    border: none;
+
     border-radius: 4px;
     background: #2196F3;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 
     color: #FFFFFF;
-    margin-left: 692px;
-    margin-right: 692px;
-
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .header-contact-link {
@@ -161,17 +192,18 @@ padding-right: 1102px;
 
 /* правила */
 .adventage-title1 {
-    font-family: 'Roboto';
+    color: #212121;
+    font-family: Roboto;
+    font-size: 14px;
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-decoration: none;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
     padding-left: 215px;
     padding-right: 1115px;
 
-    color: #212121;
+
 }
 
 .adventage-item1 {
