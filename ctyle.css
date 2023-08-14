@@ -13,19 +13,20 @@ a {
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-} 
+}
 
 .header-l {
-    height: 160px;
+    height: 80px;
     margin-left: auto;
     margin-right: auto;
     align-items: center;
     display: flex;
     background: #FFF;
-    
-  
+
+
 }
-.a{
+
+.a {
     text-decoration: none;
 }
 
@@ -48,10 +49,9 @@ a {
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.78px;
+    
+    margin-right: 1240px;
 
-    padding-left: 215px;
-    padding-right: 1240px;
-    padding: 20px;
 }
 
 
@@ -66,7 +66,7 @@ a {
     letter-spacing: 0.28px;
     max-width: 32px;
 
-    padding-left: 453px;
+
     padding-right: 1102px;
 
 }
@@ -92,7 +92,7 @@ a {
     letter-spacing: 0.28px;
     max-width: 32px;
 
-    padding-left: 548px;
+  
     padding-right: 980px;
 
 }
@@ -112,7 +112,6 @@ a {
     letter-spacing: 0.28px;
     max-width: 32px;
 
-    padding-left: 670px;
     padding-right: 866px;
 
 }
@@ -120,6 +119,7 @@ a {
 .header-link3:hover {
     color: #2196F3;
 }
+
 
 /* герой */
 
@@ -176,22 +176,52 @@ a {
     margin-right: auto;
 }
 
-.header-contact-link {
+.header-contact-link1 {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
 
     color: #757575;
+   
+    margin-right: 387px;
 }
 
-.header-contact-link:hover {
+.header-contact-link1:hover {
 
     color: #2196F3;
 }
 
+.header-contact-link2 {
+    color: #757575;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+  
+    margin-right: 215px;
+}
+
+.header-contact-link2:hover {
+
+    color: #2196F3;
+}
+
+.adventage{
+    
+}
+
 /* правила */
+.adventage-list1 {
+
+ display: flex;
+
+}
+
 .adventage-title1 {
+    width: 270px;
     color: #212121;
     font-family: Roboto;
     font-size: 14px;
@@ -200,7 +230,7 @@ a {
     line-height: normal;
     letter-spacing: 0.42px;
     text-transform: uppercase;
-    padding-left: 215px;
+    
     padding-right: 1115px;
 
 
@@ -219,7 +249,7 @@ a {
     line-height: 24px;
     /* 171.429% */
     letter-spacing: 0.42px;
-    padding-left: 215px;
+    
     padding-right: 1115px;
 
 }
@@ -237,7 +267,7 @@ a {
     text-transform: uppercase;
     text-decoration: none;
 
-    padding-left: 515px;
+   
     padding-right: 815px;
 }
 
@@ -254,7 +284,7 @@ a {
     line-height: 24px;
     /* 171.429% */
     letter-spacing: 0.42px;
-    padding-left: 515px;
+   
     padding-right: 815px;
 }
 
@@ -271,7 +301,6 @@ a {
     text-transform: uppercase;
     text-decoration: none;
 
-    padding-left: 815px;
     padding-right: 515px;
 
 }
@@ -289,7 +318,6 @@ a {
     /* 171.429% */
     letter-spacing: 0.42px;
 
-    padding-left: 815px;
     padding-right: 515px;
 }
 
@@ -306,7 +334,6 @@ a {
     text-transform: uppercase;
     text-decoration: none;
 
-    padding-left: 1115px;
     padding-right: 215px;
 
 
@@ -326,9 +353,14 @@ a {
     /* 171.429% */
     letter-spacing: 0.42px;
 
-    padding-left: 1115px;
-    padding-right: 215px;
+    
+    padding-right:215px;
 }
+.adventage-list{
+
+
+}
+
 
 .work-title {
 
@@ -368,6 +400,13 @@ a {
     margin-left: 1115px;
     margin-right: 215px;
 }
+.work-list{
+display: flex;
+gap: 30px;
+
+
+
+}
 
 .team-title {
     font-weight: 700;
@@ -399,50 +438,82 @@ a {
 
     color: #757575;
 }
+.team-img{
+height: 260px;
+width: 270px;
+gap: 30px;
+}
+
+
+.team-list{
+    display: flex;
+}
+
+.footer {
+
+    padding-left: auto;
+    padding-right: auto;
+    height: 252px;
+    background: #2F303A;
+}
 
 .logo {
     color: #2196F3;
-    font-family: 'Raleway';
-    font-weight: 700;
+    font-family: Raleway;
     font-size: 26px;
-    text-decoration: none;
-    letter-spacing: 0.03em;
-    line-height: 1.19;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
 }
 
 .footer-logo {
-    color: #FFFFFF;
-    font-family: 'Raleway';
-    font-weight: 700;
+    color: #FFF;
+    font-family: Raleway;
     font-size: 26px;
-    text-decoration: none;
-    letter-spacing: 0.03em;
-    line-height: 1.19;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+
+    margin-left: 215px;
+    margin-right: 1240px;
 }
 
 .footer-address {
-    font-weight: 400;
+    color: #FFF;
+    font-family: Roboto;
     font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0.03em;
-
-    color: #FFFFFF;
+    /* 171.429% */
+    letter-spacing: 0.42px;
+   
 }
 
 .footer-gmail {
-    font-weight: 400;
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Roboto;
     font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
+    /* 171.429% */
+    letter-spacing: 0.42px;
+   
 }
 
 .footer-contact {
-    font-weight: 400;
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Roboto;
     font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
+    /* 171.429% */
+    letter-spacing: 0.42px;
+   
 }
 
 .logo {

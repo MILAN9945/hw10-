@@ -23,3 +23,10 @@ img {
     margin: 0;
     width: 100%;
 }
+
+ul,
+ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
