@@ -8,11 +8,9 @@ a {
 
 /* хедер */
 .contair {
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 1600px;
+    
+   
 }
 
 .header-l {
@@ -49,7 +47,7 @@ a {
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.78px;
-    
+
     margin-right: 1240px;
 
 }
@@ -75,10 +73,38 @@ a {
     color: #2196F3;
 }
 
-.header-link1 {
-    text-decoration: none;
+.header-contact-link1 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    color: #757575;
+
+    margin-right: 387px;
 }
 
+.header-contact-link1:hover {
+
+    color: #2196F3;
+}
+
+.header-contact-link2 {
+    color: #757575;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+
+    margin-right: 215px;
+}
+
+.header-contact-link2:hover {
+
+    color: #2196F3;
+}
 
 
 .header-link2 {
@@ -92,7 +118,7 @@ a {
     letter-spacing: 0.28px;
     max-width: 32px;
 
-  
+
     padding-right: 980px;
 
 }
@@ -176,47 +202,21 @@ a {
     margin-right: auto;
 }
 
-.header-contact-link1 {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
 
-    color: #757575;
-   
-    margin-right: 387px;
-}
 
-.header-contact-link1:hover {
 
-    color: #2196F3;
-}
 
-.header-contact-link2 {
-    color: #757575;
-    font-family: Roboto;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    letter-spacing: 0.28px;
-  
-    margin-right: 215px;
-}
-
-.header-contact-link2:hover {
-
-    color: #2196F3;
-}
-
-.adventage{
-    
-}
 
 /* правила */
+
+.adventage {
+
+    width: 300px;
+}
+
 .adventage-list1 {
 
- display: flex;
+    display: flex;
 
 }
 
@@ -230,7 +230,7 @@ a {
     line-height: normal;
     letter-spacing: 0.42px;
     text-transform: uppercase;
-    
+
     padding-right: 1115px;
 
 
@@ -249,7 +249,7 @@ a {
     line-height: 24px;
     /* 171.429% */
     letter-spacing: 0.42px;
-    
+
     padding-right: 1115px;
 
 }
@@ -267,7 +267,7 @@ a {
     text-transform: uppercase;
     text-decoration: none;
 
-   
+
     padding-right: 815px;
 }
 
@@ -284,7 +284,7 @@ a {
     line-height: 24px;
     /* 171.429% */
     letter-spacing: 0.42px;
-   
+
     padding-right: 815px;
 }
 
@@ -353,14 +353,13 @@ a {
     /* 171.429% */
     letter-spacing: 0.42px;
 
-    
-    padding-right:215px;
-}
-.adventage-list{
 
-
+    padding-right: 215px;
 }
 
+.adventage-list {}
+
+/* work */
 
 .work-title {
 
@@ -373,7 +372,7 @@ a {
     color: #212121;
 }
 
-.work.text1 {
+.work.text {
     width: 370px;
     height: 294px;
     flex-shrink: 0;
@@ -381,30 +380,12 @@ a {
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
 
-.work.text2 {
-    width: 370px;
-    height: 294px;
-    flex-shrink: 0;
 
+.work-list {
+    display: flex;
+    gap: 30px;
 
-    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
-}
-
-.work.text3 {
-    width: 370px;
-    height: 294px;
-    flex-shrink: 0;
-
-    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
-
-    margin-left: 1115px;
-    margin-right: 215px;
-}
-.work-list{
-display: flex;
-gap: 30px;
-
-
+    /* team */
 
 }
 
@@ -414,18 +395,19 @@ gap: 30px;
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
-
+    
     color: #212121;
 }
 
 .team-title {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-    letter-spacing: 0.03em;
-
     color: #212121;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.08px;
 }
 
 .team-item {
@@ -438,14 +420,19 @@ gap: 30px;
 
     color: #757575;
 }
-.team-img{
-height: 260px;
-width: 270px;
-gap: 30px;
+
+.team-img {
+    height: 260px;
+    width: 270px;
+    gap: 30px;
 }
 
+.team-text{
+gap: 30px;
 
-.team-list{
+}
+
+.team-list {
     display: flex;
 }
 
@@ -489,7 +476,7 @@ gap: 30px;
     line-height: 24px;
     /* 171.429% */
     letter-spacing: 0.42px;
-   
+
 }
 
 .footer-gmail {
@@ -501,7 +488,7 @@ gap: 30px;
     line-height: 24px;
     /* 171.429% */
     letter-spacing: 0.42px;
-   
+
 }
 
 .footer-contact {
@@ -513,7 +500,7 @@ gap: 30px;
     line-height: 24px;
     /* 171.429% */
     letter-spacing: 0.42px;
-   
+
 }
 
 .logo {
