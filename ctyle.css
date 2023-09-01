@@ -57,6 +57,7 @@ a {
 }
 
 .header-l{
+    flex: content;
    align-items: center;
 }
 
@@ -95,6 +96,10 @@ a {
 .header-contact-link:hover {
 
     color: #2196F3;
+}
+
+.main{
+    
 }
 
 
