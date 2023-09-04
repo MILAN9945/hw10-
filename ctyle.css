@@ -2,23 +2,32 @@ body {
     font-family: 'Roboto';
 }
 
-a {
-    text-decoration: none;
-}
+
+
+
 
 /* хедер */
-.contair {
-    width: 1600px;
-    
-   
+.container {
+  width: 1200px;
+  outline: solid red;
+  margin-left: auto;
+  margin-right: auto;
 }
 .header-contair{
-    width: 1600px;
+  display: flex;  
   
 }
 
+.header-pages{
+    display: flex;
+}
+
+.header-navigation{
+    display: flex;
+}
+
 .header-l {
-    height: 80px;
+  
     margin-left: auto;
     margin-right: auto;
     align-items: center;
@@ -52,8 +61,12 @@ a {
     line-height: normal;
     letter-spacing: 0.78px;
 
-    margin-right: 1240px;
+   
 
+}
+
+.header-contact{
+display: flex;
 }
 
 .header-l{
@@ -71,10 +84,9 @@ a {
     font-weight: 500;
     line-height: normal;
     letter-spacing: 0.28px;
-    max-width: 32px;
+    
 
 
-    padding-right: 1102px;
 
 }
 
@@ -90,7 +102,7 @@ a {
 
     color: #757575;
 
-    margin-right: 387px;
+  
 }
 
 .header-contact-link:hover {
@@ -110,8 +122,7 @@ a {
     height: 600px;
     display: flex;
     align-items: center;
-    padding-left: auto;
-    padding-right: auto;
+   
 }
 
 .hero-title {
@@ -192,8 +203,7 @@ a {
     letter-spacing: 0.42px;
     text-transform: uppercase;
 
-    padding-right: 1115px;
-
+    
 
 }
 
@@ -298,7 +308,6 @@ gap: 30px;
 
     padding-left: auto;
     padding-right: auto;
-    height: 252px;
     background: #2F303A;
 }
 
@@ -321,8 +330,6 @@ gap: 30px;
     line-height: normal;
     letter-spacing: 0.78px;
 
-    margin-left: 215px;
-    margin-right: 1240px;
 }
 
 .footer-address {
