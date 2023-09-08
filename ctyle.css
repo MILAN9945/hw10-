@@ -71,7 +71,7 @@ display: flex;
 
 .header-l{
     flex: content;
-   align-items: center;
+  
 }
 
 
@@ -90,7 +90,7 @@ display: flex;
 
 }
 
-.header-link1:hover {
+.header-link:hover {
     color: #2196F3;
 }
 
@@ -140,6 +140,8 @@ display: flex;
     text-transform: uppercase;
     margin-left: auto;
     margin-right: auto;
+
+  
 }
 
 .hero-button {
@@ -220,7 +222,7 @@ display: flex;
     line-height: 24px;
     /* 171.429% */
     letter-spacing: 0.42px;
-
+ 
     
 }
 
