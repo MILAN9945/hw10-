@@ -8,34 +8,38 @@ body {
 
 /* хедер */
 .container {
-  width: 1200px;
-  outline: solid red;
-  margin-left: auto;
-  margin-right: auto;
-}
-.header-contair{
-  display: flex;  
-  
-}
-
-.header-pages{
-    display: flex;
-}
-
-.header-navigation{
-    display: flex;
-}
-
-.header-l {
-  
+    width: 1200px;
+    outline: solid red;
     margin-left: auto;
     margin-right: auto;
-    align-items: center;
+}
+
+.header-contair {
     display: flex;
-    background: #FFF;
+    align-items: center;
+
+}
+
+.header {
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+
+.header-pages {
+    display: flex;
+    gap: 32px;
+    margin-right: auto;
+}
+
+.header-navigation {
+    display: flex;
+    margin-left: 93px;
+    width: 100%;
 
 
 }
+
+
 
 .a {
     text-decoration: none;
@@ -61,17 +65,20 @@ body {
     line-height: normal;
     letter-spacing: 0.78px;
 
-   
+
 
 }
 
-.header-contact{
-display: flex;
+.header-contacts {
+    display: flex;
+    gap: 50px;
+
+
 }
 
-.header-l{
+.header-l {
     flex: content;
-  
+
 }
 
 
@@ -84,7 +91,7 @@ display: flex;
     font-weight: 500;
     line-height: normal;
     letter-spacing: 0.28px;
-    
+
 
 
 
@@ -102,7 +109,7 @@ display: flex;
 
     color: #757575;
 
-  
+
 }
 
 .header-contact-link:hover {
@@ -110,9 +117,7 @@ display: flex;
     color: #2196F3;
 }
 
-.main{
-    
-}
+.main {}
 
 
 /* герой */
@@ -122,7 +127,7 @@ display: flex;
     height: 600px;
     display: flex;
     align-items: center;
-   
+
 }
 
 .hero-title {
@@ -141,7 +146,9 @@ display: flex;
     margin-left: auto;
     margin-right: auto;
 
-  
+    padding-bottom: 40px;
+
+
 }
 
 .hero-button {
@@ -180,18 +187,22 @@ display: flex;
 
 .adventage {
 
-   
-} 
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 
-.adventage-txt{
-   align-items: center;
+.adventage-txt {
+    align-items: center;
     border: solid red;
 }
+
+
 
 .adventage-list {
 
     display: flex;
-  
+    gap: 30px;
+
 }
 
 .adventage-title {
@@ -204,8 +215,9 @@ display: flex;
     line-height: normal;
     letter-spacing: 0.42px;
     text-transform: uppercase;
+    margin-bottom: 10px;
 
-    
+
 
 }
 
@@ -222,14 +234,18 @@ display: flex;
     line-height: 24px;
     /* 171.429% */
     letter-spacing: 0.42px;
- 
-    
+
+
 }
 
 
 .adventage-list {}
 
 /* work */
+
+.work {
+    margin-bottom: 94px;
+}
 
 .work-title {
 
@@ -240,6 +256,7 @@ display: flex;
     letter-spacing: 0.03em;
 
     color: #212121;
+    margin-bottom: 50px;
 }
 
 .work.text {
@@ -255,19 +272,17 @@ display: flex;
     display: flex;
     gap: 30px;
 
-    /* team */
+
+
 
 }
 
-.team-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    
-    color: #212121;
+/* team */
+.team{
+background: #F5F4FA;
+margin-bottom: 94px;
 }
+
 
 .team-title {
     color: #212121;
@@ -278,6 +293,19 @@ display: flex;
     font-weight: 700;
     line-height: normal;
     letter-spacing: 1.08px;
+    margin-bottom: 50px;
+}
+
+.team-text {
+    color: #212121;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.48px;
+    margin-bottom: 30px;
 }
 
 .team-item {
@@ -289,29 +317,32 @@ display: flex;
     letter-spacing: 0.03em;
 
     color: #757575;
+   
 }
 
 .team-img {
     height: 260px;
     width: 270px;
-    gap: 30px;
-}
-
-.team-text{
-gap: 30px;
+  padding-bottom: 30px;
 
 }
+
+
 
 .team-list {
     display: flex;
+    gap: 30px;
 }
 
 .footer {
 
-    padding-left: auto;
-    padding-right: auto;
+   
     background: #2F303A;
+    padding-top: 60px;
+   padding-bottom: 60px;
+   
 }
+
 
 .logo {
     color: #2196F3;
@@ -323,6 +354,7 @@ gap: 30px;
     letter-spacing: 0.78px;
 }
 
+
 .footer-logo {
     color: #FFF;
     font-family: Raleway;
@@ -332,7 +364,15 @@ gap: 30px;
     line-height: normal;
     letter-spacing: 0.78px;
 
+   
+   
+
 }
+
+ .footer-text{
+    margin-top: 9px;
+    margin-bottom: 9px;
+ }
 
 .footer-address {
     color: #FFF;
@@ -343,6 +383,7 @@ gap: 30px;
     line-height: 24px;
     /* 171.429% */
     letter-spacing: 0.42px;
+    margin-top: 20px;
 
 }
 
@@ -367,6 +408,7 @@ gap: 30px;
     line-height: 24px;
     /* 171.429% */
     letter-spacing: 0.42px;
+
 
 }
 
