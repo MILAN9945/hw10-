@@ -9,7 +9,6 @@ body {
 /* хедер */
 .container {
     width: 1200px;
-    outline: solid red;
     margin-left: auto;
     margin-right: auto;
 }
@@ -193,7 +192,7 @@ body {
 
 .adventage-txt {
     align-items: center;
-    border: solid red;
+   
 }
 
 
