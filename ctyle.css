@@ -8,7 +8,8 @@ body {
 
 /* хедер */
 .container {
-    width: 1200px;
+    width: 1640px;
+   
     margin-left: auto;
     margin-right: auto;
 }
@@ -238,7 +239,9 @@ body {
 }
 
 
-.adventage-list {}
+.adventage-list {
+    margin-left: 215px;
+}
 
 /* work */
 
@@ -269,6 +272,7 @@ body {
 
 .work-list {
     display: flex;
+    margin-left: 215px;
     gap: 30px;
 
 
@@ -329,7 +333,8 @@ margin-bottom: 94px;
 
 
 .team-list {
-    display: flex;
+    display: flex; 
+   margin-left: 215px;
     gap: 30px;
 }
 
@@ -411,60 +416,3 @@ margin-bottom: 94px;
 
 }
 
-.logo {
-    color: #2196F3;
-    font-family: 'Raleway';
-    font-weight: 700;
-    font-size: 26px;
-    text-decoration: none;
-    letter-spacing: 0.03em;
-    line-height: 1.19;
-}
-
-.portfolio-header-logo {
-    color: #FFFFFF;
-    font-family: 'Raleway';
-    font-weight: 700;
-    font-size: 26px;
-    text-decoration: none;
-    letter-spacing: 0.03em;
-    line-height: 1.19;
-}
-
-.hero-button:hover {
-    color: #2196F3;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #FFFFFF;
-    color: #2196F3;
-}
-
-.hero-button:focus {
-    color: #2196F3;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #FFFFFF;
-    color: #2196F3;
-}
-
-.galery-title {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 36px;
-    letter-spacing: 0.06em;
-    color: #212121;
-}
-
-.galery-item {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 30px;
-    letter-spacing: 0.03em;
-    color: #757575;
-}

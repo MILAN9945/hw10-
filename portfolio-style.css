@@ -1,6 +1,6 @@
 .container {
-    width: 1200px;
-    outline: solid red;
+    width: 1640px;
+   
     margin-left: auto;
     margin-right: auto;
 }
@@ -11,15 +11,14 @@
 
 }
 
-.header {
-    padding-top: 24px;
-    padding-bottom: 25px;
-}
+
 
 .header-pages {
     display: flex;
     gap: 32px;
     margin-right: auto;
+   
+  
 }
 
 .header-navigation {
@@ -144,15 +143,62 @@
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 
-.main-cards{
-    display: flex;
-    flex-wrap: wrap;
+
+/* hero */
+
+
+.hero-button:hover {
+    color: #2196F3;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    color: #2196F3;
 }
 
-.card{
-    width: 370px;
-        height: 294px;
-        flex-shrink: 0;
+.hero-button:focus {
+    color: #2196F3;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    color: #2196F3;
+}
+
+
+.button-list{
+    
+    display: flex;
+    margin-left: 537px;
+    margin-right: 535px;
+    gap: 8px;
+  
+}
+  
+/* galey */
+.main.card{
+width: 370px;
+    height: 294px; 
+   
+
+}
+
+.main-galery{
+  
+}
+
+.cards-list{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 30px;
+   margin-left: 215px;
+   margin-right: 215px;
+   margin-top: 56px;
+   margin-bottom: 94px;
 }
 
 .cards-title{
@@ -165,6 +211,47 @@
         /* 200% */
         letter-spacing: 1.08px;
 }
+
+.cards-text{
+    color: #757575;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        /* 187.5% */
+        letter-spacing: 0.48px;
+}
+
+/*main */
+
+.main-buttons{
+ padding-top: 94px;
+}
+ 
+
+/* footer */
+
+.footer {
+
+
+    background: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+}
+
+
+.logo {
+    color: #2196F3;
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+}
+
 
 .footer-logo {
     color: #FFF;
