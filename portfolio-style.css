@@ -5,7 +5,38 @@
     margin-right: auto;
 }
 
-.header-logo {
+.header-contair {
+    display: flex;
+    align-items: center;
+
+}
+
+.header {
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+
+.header-pages {
+    display: flex;
+    gap: 32px;
+    margin-right: auto;
+}
+
+.header-navigation {
+    display: flex;
+    margin-left: 93px;
+    width: 100%;
+
+
+}
+
+
+
+.a {
+    text-decoration: none;
+}
+
+.logo {
     color: #2196F3;
     font-family: Raleway;
     font-size: 26px;
@@ -15,7 +46,8 @@
     letter-spacing: 0.78px;
 }
 
-.logo-span {
+
+.header-logo {
     color: #000;
     font-family: Raleway;
     font-size: 26px;
@@ -23,36 +55,58 @@
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.78px;
+
+
+
 }
 
+.header-contacts {
+    display: flex;
+    gap: 50px;
+
+
+}
+
+.header-l {
+    flex: content;
+
+}
+
+
 .header-link {
-    color: #212121;
+
+    color: gray;
     font-family: Roboto;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     letter-spacing: 0.28px;
+
+
+
+
 }
 
 .header-link:hover {
     color: #2196F3;
 }
 
-.header-text {
-    color: #757575;
-    font-family: Roboto;
-    font-size: 14px;
-    font-style: normal;
+.header-contact-link {
     font-weight: 500;
-    line-height: normal;
-    letter-spacing: 0.28px;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    color: #757575;
+
+
 }
 
-.header-text:hover {
+.header-contact-link:hover {
+
     color: #2196F3;
 }
-
 .button-portfolio {
     color: #212121;
     text-align: center;
@@ -110,4 +164,61 @@
         line-height: 36px;
         /* 200% */
         letter-spacing: 1.08px;
+}
+
+.footer-logo {
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+
+
+
+
+}
+
+.footer-text {
+    margin-top: 9px;
+    margin-bottom: 9px;
+}
+
+.footer-address {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 171.429% */
+    letter-spacing: 0.42px;
+    margin-top: 20px;
+
+}
+
+.footer-gmail {
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 171.429% */
+    letter-spacing: 0.42px;
+
+}
+
+.footer-contact {
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 171.429% */
+    letter-spacing: 0.42px;
+
+
 }
