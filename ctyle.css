@@ -134,6 +134,7 @@ body {
     background-image: url(./images/box.jpg);
     width: 1646px;
     height: 600px;
+    opacity: 0.5;
 }
 
 .hero-title {
@@ -216,7 +217,16 @@ body {
 }
 
 
-
+.adventage-title::before {
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+    content: "";
+   display: block;
+   background-image: url(http://www.w3.org/2000/svg);
+   
+margin-bottom: 30px;
+}
 
 .adventage-title {
     width: 270px;
