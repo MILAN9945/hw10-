@@ -225,7 +225,9 @@ body {
    display: block;
   background-image: url(./images/antenna1.png)
   ;
-  
+ 
+  background-repeat: no-repeat;
+  background-position: center;
 margin-bottom: 30px;
 }
 
