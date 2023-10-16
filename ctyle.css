@@ -223,8 +223,9 @@ body {
     background-color: #F5F4FA;
     content: "";
    display: block;
-   background-image: url(http://www.w3.org/2000/svg);
-   
+  background-image: url(./images/antenna1.png)
+  ;
+  
 margin-bottom: 30px;
 }
 
