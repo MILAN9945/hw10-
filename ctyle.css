@@ -215,15 +215,26 @@ body {
 
 
 }
+.adventage-text:nth-child(1)::before {
+    background-image: url(./images/antenna1.png);
+  }
+  .adventage-text:nth-child(2)::before {
+    background-image: url(./images/clock1.png);
+  }
+  .adventage-text:nth-child(3)::before {
+    background-image: url(./images/diagram1.png);
+  }
+  .adventage-text:nth-child(4)::before {
+    background-image: url(./images/astronaut1.png);
+  }
 
-
-.adventage-title::before {
+.adventage-text::before {
     width: 270px;
     height: 120px;
     background-color: #F5F4FA;
     content: "";
    display: block;
-  background-image: url(./images/antenna1.png)
+  
   ;
 
   background-repeat: no-repeat;
