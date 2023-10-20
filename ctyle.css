@@ -8,8 +8,9 @@ body {
 
 /* хедер */
 .container {
-    width: 1640px;
-
+    width: 1200px;
+padding-left: 15px;
+padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -123,19 +124,16 @@ body {
 /* герой */
 
 .hero {
+    background-image: url(./images/box.jpg);
     background-color: #2F303A;
-    height: 600px;
+  
     display: flex;
     align-items: center;
-
+   padding-top: 200px;
+   padding-bottom: 200px;
 }
 
-.hero-box {
-    background-image: url(./images/box.jpg);
-    width: 1646px;
-    height: 600px;
-    opacity: 1;
-}
+
 
 .hero-title {
     width: 696px;
@@ -153,8 +151,8 @@ body {
     margin-left: auto;
     margin-right: auto;
 
-    padding-bottom: 40px;
-    margin-top: 200px;
+    margin-bottom: 30px;
+    
 
 
 }
@@ -184,7 +182,7 @@ body {
     color: #FFFFFF;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 200px;
+
 }
 
 
@@ -198,6 +196,7 @@ body {
 
     padding-top: 94px;
     padding-bottom: 94px;
+
 }
 
 .adventage-txt {
@@ -283,9 +282,7 @@ margin-bottom: 30px;
 }
 
 
-.adventage-list {
-    margin-left: 215px;
-}
+
 
 /* work */
 
@@ -316,7 +313,7 @@ margin-bottom: 30px;
 
 .work-list {
     display: flex;
-    margin-left: 215px;
+   
     gap: 30px;
 
 
@@ -327,7 +324,9 @@ margin-bottom: 30px;
 /* team */
 .team {
     background: #F5F4FA;
-    margin-bottom: 94px;
+ 
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 
@@ -344,6 +343,20 @@ margin-bottom: 30px;
 }
 
 .team-text {
+   
+    color: #757575;
+
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.48px;
+    margin-top: 10px;
+}
+
+.team-subtitle{
     color: #212121;
     text-align: center;
     font-family: Roboto;
@@ -352,27 +365,25 @@ margin-bottom: 30px;
     font-weight: 500;
     line-height: normal;
     letter-spacing: 0.48px;
-    margin-bottom: 30px;
-    background-color: #FFF;
 
+    
 }
 
 .team-item {
 
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-    letter-spacing: 0.03em;
-
+   
+    
+    background-color: #FFF;
+    border-radius: 0px 0px 4px 4px;
     color: #757575;
+    padding-bottom: 30px;
 
 }
 
 .team-img {
     height: 260px;
     width: 270px;
-    padding-bottom: 30px;
+   margin-bottom: 30px;
 
 }
 
@@ -380,7 +391,7 @@ margin-bottom: 30px;
 
 .team-list {
     display: flex;
-    margin-left: 215px;
+  
     gap: 30px;
 }
 
