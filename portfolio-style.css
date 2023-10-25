@@ -1,6 +1,7 @@
 .container {
-    width: 1640px;
-   
+    width: 1200px;
+   padding-left: 15px;
+   padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -9,6 +10,9 @@
     display: flex;
     align-items: center;
 
+}
+.header{
+    padding-top: 24px;
 }
 
 
@@ -173,8 +177,7 @@
 .button-list{
     
     display: flex;
-    margin-left: 537px;
-    margin-right: 535px;
+  align-items: center;
     gap: 8px;
   
 }
@@ -242,6 +245,7 @@ width: 370px;
     background: #2F303A;
     padding-top: 60px;
     padding-bottom: 60px;
+    padding-left: 215px;
 
 }
 
