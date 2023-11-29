@@ -9,8 +9,8 @@ body {
 /* хедер */
 .container {
     width: 1200px;
-padding-left: 15px;
-padding-right: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -118,19 +118,19 @@ padding-right: 15px;
     color: #2196F3;
 }
 
-.main {}
+
 
 
 /* герой */
 
 .hero {
-    background-image: url(./images/box.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40)), url(./images/box.jpg);
     background-color: #2F303A;
-  
     display: flex;
     align-items: center;
-   padding-top: 200px;
-   padding-bottom: 200px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+
 }
 
 
@@ -152,7 +152,7 @@ padding-right: 15px;
     margin-right: auto;
 
     margin-bottom: 30px;
-    
+
 
 
 }
@@ -182,6 +182,7 @@ padding-right: 15px;
     color: #FFFFFF;
     margin-left: auto;
     margin-right: auto;
+    cursor: pointer;
 
 }
 
@@ -214,31 +215,35 @@ padding-right: 15px;
 
 
 }
+
 .adventage-text:nth-child(1)::before {
     background-image: url(./images/antenna1.png);
-  }
-  .adventage-text:nth-child(2)::before {
+}
+
+.adventage-text:nth-child(2)::before {
     background-image: url(./images/clock1.png);
-  }
-  .adventage-text:nth-child(3)::before {
+}
+
+.adventage-text:nth-child(3)::before {
     background-image: url(./images/diagram1.png);
-  }
-  .adventage-text:nth-child(4)::before {
+}
+
+.adventage-text:nth-child(4)::before {
     background-image: url(./images/astronaut1.png);
-  }
+}
 
 .adventage-text::before {
     width: 270px;
     height: 120px;
     background-color: #F5F4FA;
     content: "";
-   display: block;
-  
-  ;
+    display: block;
 
-  background-repeat: no-repeat;
-  background-position: center;
-margin-bottom: 30px;
+    ;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 30px;
 }
 
 .adventage-title {
@@ -313,7 +318,7 @@ margin-bottom: 30px;
 
 .work-list {
     display: flex;
-   
+
     gap: 30px;
 
 
@@ -324,7 +329,7 @@ margin-bottom: 30px;
 /* team */
 .team {
     background: #F5F4FA;
- 
+
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -343,7 +348,7 @@ margin-bottom: 30px;
 }
 
 .team-text {
-   
+
     color: #757575;
 
     text-align: center;
@@ -356,7 +361,7 @@ margin-bottom: 30px;
     margin-top: 10px;
 }
 
-.team-subtitle{
+.team-subtitle {
     color: #212121;
     text-align: center;
     font-family: Roboto;
@@ -366,13 +371,13 @@ margin-bottom: 30px;
     line-height: normal;
     letter-spacing: 0.48px;
 
-    
+
 }
 
 .team-item {
 
-   
-    
+
+
     background-color: #FFF;
     border-radius: 0px 0px 4px 4px;
     color: #757575;
@@ -384,7 +389,7 @@ margin-bottom: 30px;
 .team-img {
     height: 260px;
     width: 270px;
-   margin-bottom: 30px;
+    margin-bottom: 30px;
 
 }
 
@@ -392,7 +397,7 @@ margin-bottom: 30px;
 
 .team-list {
     display: flex;
-  
+
     gap: 30px;
 }
 
