@@ -134,7 +134,7 @@ padding-bottom: 32px;
     flex-shrink: 0;
     border-radius: 4px;
     background: #F5F4FA;
-    border: none;
+  border: none;
 
 }
 
@@ -218,7 +218,7 @@ width: 370px;
    gap: 30px;
   
    margin-top: 56px;
-   margin-bottom: 94px;
+   padding-bottom: 94px;
   
 } 
 
