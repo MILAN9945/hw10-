@@ -477,3 +477,33 @@ body {
 
 
 }
+
+.services-icon {
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+}
+
+.services-icon:hover {}
+
+.services-icons {
+    width: 10px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+.team-icon{
+    fill: #AFB1B8;
+}
+
+.team-subicon {
+    width: 20px;
+    height: 20px;
+}
+
+.team-sublist{
+    display: flex;
+    justify-content: center;
+    gap: 34px;
+    margin-top: 28px;
+}
