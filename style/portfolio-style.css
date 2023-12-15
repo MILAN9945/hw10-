@@ -331,5 +331,18 @@ width: 370px;
     /* 171.429% */
     letter-spacing: 0.42px;
 
+}
 
+.services-icon {
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+}
+
+
+
+.services-icons {
+    width: 10px;
+    height: 16px;
+    margin-right: 10px;
 }

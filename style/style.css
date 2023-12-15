@@ -484,7 +484,7 @@ body {
     margin-right: 10px;
 }
 
-.services-icon:hover {}
+
 
 .services-icons {
     width: 10px;
@@ -492,8 +492,15 @@ body {
     margin-right: 10px;
 }
 
-.team-icon{
+.team-icon {
     fill: #AFB1B8;
+    cursor: pointer;
+}
+
+.team-icon:hover {
+    fill: #FFFFFF;
+    border-radius: 50px;
+
 }
 
 .team-subicon {
@@ -501,9 +508,22 @@ body {
     height: 20px;
 }
 
-.team-sublist{
+.team-subicon:hover {}
+
+.team-sublist {
     display: flex;
     justify-content: center;
     gap: 34px;
     margin-top: 28px;
+}
+
+.footer-icon-list {
+    display: flex;
+
+}
+
+.footer-icons {
+    width: 20px;
+    height: 20px;
+
 }
