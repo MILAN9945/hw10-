@@ -667,6 +667,8 @@ body {
     border: 1px solid #2196F3;
 } 
 
-.cliehts-item:hover   .cliehts-icon{
+
+
+.cliehts-icon:hover{
     fill: #2196F3;
 }

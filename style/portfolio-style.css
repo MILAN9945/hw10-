@@ -119,6 +119,36 @@
     color: #2196F3;
 }
 
+.header-contact-link:hover .heder-contact{
+    color: #2196F3;
+}
+
+.header-contact-link:focus .heder-contact{
+    color: #2196F3;
+}
+
+.header-contact-link:hover .services-icon{
+    fill: #2196F3;
+}
+
+.header-contact-link:hover .heder-contacts{
+    color: #2196F3;
+}
+
+.header-contact-link:focus .heder-contacts{
+    color: #2196F3;
+}
+
+.header-contact-link:focus{
+   outline: none;
+}
+
+
+.header-contact-link:hover  .services-icons{
+    fill: #2196F3;
+}
+
+
 .button-portfolio {
     color: #212121;
     text-align: center;
