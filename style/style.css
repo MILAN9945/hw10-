@@ -110,14 +110,53 @@ body {
     color: #757575;
 
 
+
 }
 
-.header-contact-link:hover {
 
+.header-contact-link:hover .heder-contact{
     color: #2196F3;
 }
 
+.header-contact-link:focus .heder-contact{
+    color: #2196F3;
+}
 
+.header-contact-link:hover .services-icon{
+    fill: #2196F3;
+}
+
+.header-contact-link:hover .heder-contacts{
+    color: #2196F3;
+}
+
+.header-contact-link:focus .heder-contacts{
+    color: #2196F3;
+}
+
+.header-contact-link:focus{
+   outline: none;
+}
+
+
+.header-contact-link:hover  .services-icons{
+    fill: #2196F3;
+}
+
+
+.services-icon {
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+}
+
+
+
+.services-icons {
+    width: 10px;
+    height: 16px;
+    margin-right: 10px;
+}
 
 
 /* герой */
@@ -482,19 +521,7 @@ body {
     display: flex;
 }
 
-.services-icon {
-    width: 16px;
-    height: 12px;
-    margin-right: 10px;
-}
 
-
-
-.services-icons {
-    width: 10px;
-    height: 16px;
-    margin-right: 10px;
-}
 
 .team-icon {
     fill: #AFB1B8;
@@ -634,10 +661,12 @@ body {
 }
 
 .clients-item:hover {
-    
+    border-radius: 4px;
+    border: 1px solid #AFB1B8;
+    padding: 16px 32px 16px 32px;
     border: 1px solid #2196F3;
 } 
 
-.cliehts-icon:hover{
-    color: #2196F3;
+.cliehts-item:hover   .cliehts-icon{
+    fill: #2196F3;
 }
