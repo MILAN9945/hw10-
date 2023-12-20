@@ -112,6 +112,9 @@
     font-weight: 500;
     line-height: normal;
     letter-spacing: 0.28px;
+
+    display: flex;
+    align-items: center;
 }
 
 .header-contact-link:hover {
@@ -146,6 +149,14 @@
 
 .header-contact-link:hover  .services-icons{
     fill: #2196F3;
+}
+
+.services-icons{
+    fill: #757575;
+}
+
+.services-icon{
+    fill: #757575;
 }
 
 
@@ -232,9 +243,17 @@
 
 }
 
+.main-buttons {
+    padding-top: 94px;
+}
+
+
+
 .main-card:hover {
     box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
+
+
 
 .idk-container {
     padding-left: 24px;
@@ -277,11 +296,8 @@
     letter-spacing: 0.48px;
 }
 
-/*main */
 
-.main-buttons {
-    padding-top: 94px;
-}
+
 
 
 /* footer */
@@ -362,6 +378,15 @@
     /* 171.429% */
     letter-spacing: 0.42px;
 
+}
+
+.footer-icon-photo:focus {
+    fill: #2196F3;
+}
+
+.footer-icon-photo:hover {
+    border-radius: 50px;
+    background-color: #2196F3;
 }
 
 .services-icon {
