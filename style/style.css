@@ -149,6 +149,16 @@ body {
     fill: #2196F3;
 }
 
+.header-contact-link:focus .services-icons {
+    fill: #2196F3;
+}
+
+
+.header-contact-link:focus .services-icon {
+    fill: #2196F3;
+}
+
+
 
 .services-icon {
     width: 16px;
@@ -471,6 +481,7 @@ body {
 .team-icon-photo:focus {
     border-radius: 50px;
     background-color: #2196F3;
+    fill: #FFFFFF;
 
 }
 
@@ -624,7 +635,8 @@ body {
 }
 
 .footer-icon-photo:focus {
-    fill: #2196F3;
+    color: #FFF;
+    background-color: #2196F3;
 }
 
 .footer-icon-photo:hover {
@@ -668,9 +680,18 @@ body {
     fill: #AFB1B8;
 }
 
-.clients-icons:focus{
+
+
+.clients-icons:focus  .cliehts-icon {
     fill: #2196F3;
+  
 }
+
+.clients-icons:focus .clients-item {
+    border: 1px solid #2196F3;
+}
+
+
 
 .clients-title {
 
@@ -703,16 +724,9 @@ body {
     padding: 16px 32px 16px 32px;
 }
 
-.clients-item:focus {
-    border-radius: 4px;
-    border: 1px solid #2196F3;
-    padding: 16px 32px 16px 32px;
-}
+
 
 .clients-item:hover .cliehts-icon {
     fill: #2196F3;
 }
 
-.clients-item:focus .cliehts-icon {
-    fill: #2196F3;
-}
