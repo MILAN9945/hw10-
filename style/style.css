@@ -687,9 +687,20 @@ body {
   
 }
 
-.clients-icons:focus .clients-item {
+.clients-icons:hover .cliehts-icon {
+    fill: #2196F3;
+}
+
+
+.clients-icons:hover {
+    border: 1px solid #2196F3;
+
+}
+
+.clients-icons:focus {
     border: 1px solid #2196F3;
 }
+
 
 
 
@@ -710,23 +721,18 @@ body {
     padding-bottom: 94px;
 }
 
-.clients-item {
+.clients-icons {
     border-radius: 4px;
     border: 1px solid #AFB1B8;
     padding: 16px 32px 16px 32px;
+    display: block;
+    outline: none;
 }
 
 
 
-.clients-item:hover {
-    border-radius: 4px;
-    border: 1px solid #2196F3;
-    padding: 16px 32px 16px 32px;
-}
 
 
 
-.clients-item:hover .cliehts-icon {
-    fill: #2196F3;
-}
+
 
