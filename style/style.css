@@ -371,6 +371,10 @@ body {
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
 
+.work-img{
+    position: absolute;
+}
+
 
 .work-list {
     display: flex;
@@ -380,6 +384,18 @@ body {
 
 
 
+}
+
+.work-subtext {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
 }
 
 /* team */
@@ -682,9 +698,9 @@ body {
 
 
 
-.clients-icons:focus  .cliehts-icon {
+.clients-icons:focus .cliehts-icon {
     fill: #2196F3;
-  
+
 }
 
 .clients-icons:hover .cliehts-icon {
@@ -728,11 +744,3 @@ body {
     display: block;
     outline: none;
 }
-
-
-
-
-
-
-
-
