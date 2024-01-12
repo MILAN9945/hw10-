@@ -747,3 +747,55 @@ body {
     display: block;
     outline: none;
 }
+
+.backdrop {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2));
+    backdrop-filter: blur(5px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.modal {
+    width: 528px;
+    height: 581px;
+    border-radius: 4px;
+    background: #FFF;
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+input{
+    display: flex;
+    justify-content: center;
+}
+
+.backdrop-subtitle {
+    color: #757575;
+
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.12px;
+   
+}
+
+.backdrop-title {
+    color: #212121;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    display: flex;
+    justify-content: center;
+}
