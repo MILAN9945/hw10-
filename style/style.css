@@ -770,9 +770,8 @@ body {
     left: 50%;
 }
 
-input{
-    display: flex;
-    justify-content: center;
+input {
+   
 }
 
 .backdrop-subtitle {
@@ -784,7 +783,7 @@ input{
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.12px;
-   
+
 }
 
 .backdrop-title {
@@ -798,4 +797,23 @@ input{
     letter-spacing: 0.6px;
     display: flex;
     justify-content: center;
+}
+
+.backdrop-button {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    /* 187.5% */
+    letter-spacing: 0.96px;
+    width: 200px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    margin-top: 30px;
 }
