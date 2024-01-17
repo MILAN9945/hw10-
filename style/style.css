@@ -750,7 +750,7 @@ body {
 
 .backdrop {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2));
-  
+
     position: fixed;
     top: 0;
     left: 0;
@@ -770,9 +770,7 @@ body {
     left: 50%;
 }
 
-input {
-   
-}
+input {}
 
 .backdrop-subtitle {
     color: #757575;
@@ -797,6 +795,7 @@ input {
     letter-spacing: 0.6px;
     display: flex;
     justify-content: center;
+    padding-top: 40px;
 }
 
 .backdrop-button {
@@ -816,4 +815,73 @@ input {
     background: #2196F3;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     margin-top: 30px;
+    margin: 30px 164px 0px 164px;
+    border: none;
+  
+}
+
+.backdrop-svg {
+    width: 12px;
+    height: 12px;
+}
+
+.backdrop-cross {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    border-radius: 60%;
+    border: none;
+    background-color: #FFF;
+    stroke-width: 1px;
+    stroke: rgba(0, 0, 0, 0.10);
+}
+
+.backdrop-subsvg {
+    width: 18px;
+    height: 18px;
+}
+
+.backdrop-list {
+    padding-top: 12px;
+}
+
+.backdrop-modal {
+    width: 448px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid rgba(33, 33, 33, 0.20);
+}
+
+.backdrop-subtext {
+    color: #757575;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 171.429% */
+    letter-spacing: 0.42px;
+}
+
+.backdrop-link {
+    color: #2196F3;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.42px;
+    text-decoration-line: underline;
+}
+
+.backdrop-box{
+    display: flex;
+    justify-content:center;
+    padding-top: 20px;
+}
+
+.backdrop-text{
+    margin-right: 8px;
 }

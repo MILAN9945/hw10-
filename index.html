@@ -16,6 +16,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./style/reset.css">
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/modal.js">
 </head>
 
 <body>
@@ -62,7 +63,7 @@
         <section class="hero">
             <div class="container hero-box">
                 <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-                <button class="hero-button" type="button">Замовити послугу</button>
+                <button class="hero-button" type="button" data-modal-open>Замовити послугу</button>
             </div>
         </section>
         <!-- секція правила  -->
@@ -318,10 +319,10 @@
                     </li>
                     <li class="clients-item">
                         <a class="clients-icons" href="6">
-                        <svg class="cliehts-icon">
-                            <use href="./images/symbol-defs.svg#icon-logo5"></use>
-                        </svg>
-                    </a>
+                            <svg class="cliehts-icon">
+                                <use href="./images/symbol-defs.svg#icon-logo5"></use>
+                            </svg>
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -378,32 +379,54 @@
         </div>
     </footer>
     <div class="backdrop">
-<div class="modal">
-<form action="">
-    <button class="backdrop-cross" type="submit"><img src="" alt=""></button>
-    <h2 class="backdrop-title">Залиште свої дані, ми вам передзвонимо</h2>
-    <ul class="backdrop-list">
-<li class="backdrop-item">
-    <h3 class="backdrop-subtitle">Ім'я</h3>
-    <input type="text" placeholder="">
-</li>
-<li class="backdrop-item">
-    <h3 class="backdrop-subtitle">Телефон</h3>
-    <input type="text" placeholder="">
-</li>
-<li class="backdrop-item">
-    <h3 class="backdrop-subtitle">Пошта</h3>
-    <input type="text" placeholder="">
-</li>
-<li class="backdrop-item">
-    <h3 class="backdrop-subtitle">Коментар</h3>
-    <input type="text" placeholder="Введіть текст">
-</li>
-    </ul>
-    <button class="backdrop-button">Відправити</button>
-</form>
-</div>
+        <div class="modal" data-modal>
+            <form action="">
+                <button class="backdrop-cross" type="submit" data-modal-close><img src="" alt="">
+                    <svg class="backdrop-subsvg">
+                        <use href="./images/symbol-defs.svg#close"></use>
+                    </svg>
+                </button>
+                <h2 class="backdrop-title">Залиште свої дані, ми вам передзвонимо</h2>
+                <ul class="backdrop-list">
+                    <li class="backdrop-item">
+                        <h3 class="backdrop-subtitle">Ім'я</h3>
+                        <input class="backdrop-modal" type="text" placeholder="">
+                        <svg class="backdrop-svg">
+                            <use href="./images/symbol-defs.svg#persone"></use>
+                        </svg>
+                    </li>
+                    <li class="backdrop-item">
+                        <h3 class="backdrop-subtitle">Телефон</h3>
+                        <input class="backdrop-modal" type="text" placeholder="">
+                        <svg class="backdrop-svg">
+                            <use href="./images/symbol-defs.svg#telephone"></use>
+                        </svg>
+                    </li>
+                    <li class="backdrop-item">
+                        <h3 class="backdrop-subtitle">Пошта</h3>
+                        <input class="backdrop-modal" type="text" placeholder="">
+                        <svg class="backdrop-svg">
+                            <use href="./images/symbol-defs.svg#emeil"></use>
+                        </svg>
+                    </li>
+                    <li class="backdrop-item">
+                        <h3 class="backdrop-subtitle">Коментар</h3>
+                        <input type="text" placeholder="Введіть текст">
+                    </li>
+                    <div class="backdrop-box">
+                        <input type="checkbox" class="backdrop-text">
+                        <p class="backdrop-subtext">Погоджуюся з розсилкою та приймаю
+                            <span>
+                                <a class="backdrop-link" href="">Умови договору</a>
+                            </span>
+                        </p>
+                    </div>
+                </ul>
+                <button class="backdrop-button">Відправити</button>
+            </form>
+        </div>
     </div>
+    <script src="./style/modal.js"></script>
 </body>
 
 </html>
