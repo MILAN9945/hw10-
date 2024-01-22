@@ -769,6 +769,7 @@ body {
     top: 50%;
     left: 50%;
     padding: 8px 40px 40px 40px;
+  
 }
 
 input {}
@@ -782,7 +783,7 @@ input {}
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.12px;
-
+    margin-bottom: 4px;
 }
 
 .backdrop-title {
@@ -840,14 +841,15 @@ input {}
     background-color: #FFF;
     stroke-width: 1px;
     border: 1px solid rgba(0, 0, 0, 0.10);
-  align-items: center;
-  justify-content: center;
-  
+    
+
 }
 
 .backdrop-subsvg {
     width: 18px;
     height: 18px;
+    display: flex;
+    align-items: center;
 }
 
 .backdrop-list {
@@ -898,6 +900,7 @@ input {}
 
 .backdrop-subbox {
     position: relative;
+
 }
 
 .backdrop-big-modal {
@@ -916,6 +919,6 @@ input {}
     letter-spacing: 0.12px;
 }
 
-.backdrop-item{
+.backdrop-item {
     margin-bottom: 10px;
 }
