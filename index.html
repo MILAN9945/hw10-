@@ -16,8 +16,6 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./style/reset.css">
     <link rel="stylesheet" href="./style/style.css">
-
-
 </head>
 
 <body>
@@ -379,8 +377,8 @@
             </div>
         </div>
     </footer>
-    <div class="backdrop">
-        <div class="modal" data-modal>
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
             <form action="">
                 <button class="backdrop-cross" type="submit" data-modal-close><img src="" alt="">
                     <svg class="backdrop-subsvg">
@@ -433,7 +431,7 @@
             </form>
         </div>
     </div>
-    <script src="./style/modal.js"></script>
+    <script src="./js/modal.js" type="module"></script>
 </body>
 
 </html>
