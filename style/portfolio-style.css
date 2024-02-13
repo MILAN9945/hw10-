@@ -274,6 +274,7 @@
     padding-top: 94px;
 }
 
+
 /* galey */
 .main-card {
     width: 370px;
@@ -311,6 +312,36 @@
 
 }
 
+.overlay:hover { 
+    opacity:1 ;
+
+}
+
+.overlay { 
+    background: rgba(33, 150, 243, 0.9);
+    opacity:0;
+   
+    
+   position: absolute;
+}
+
+
+.main-text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 156%;
+    letter-spacing: 0.03em;
+    color: #fff;
+    padding-top: 63px;
+    padding-bottom: 63px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.main-box{
+    position: relative;
+}
 
 
 .cards-title {
