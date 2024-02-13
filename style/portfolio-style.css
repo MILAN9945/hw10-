@@ -96,7 +96,7 @@ position: relative;
     line-height: normal;
     letter-spacing: 0.28px;
 
-
+transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
 }
 
 .header-link:hover {
@@ -119,6 +119,7 @@ position: relative;
 
     display: flex;
     align-items: center;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-contact-link:hover {
@@ -177,6 +178,7 @@ position: relative;
     display: block;
     top: 44px;
     opacity: 0;
+    transition:opacity 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
 }
 
 .header-link:hover::after {
@@ -226,7 +228,7 @@ position: relative;
     border-radius: 4px;
     background: #F5F4FA;
     border: none;
-
+transition:  background-color  250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -269,7 +271,17 @@ position: relative;
 
 
 /* hero */
-
+.hero-button {
+    color: #2196F3;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    color: #2196F3;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .hero-button:hover {
     color: #2196F3;
@@ -312,6 +324,7 @@ position: relative;
 .main-card {
     width: 370px;
     border: 1px solid #EEE;
+    
 }
 
 .main-foto:focus {
@@ -534,6 +547,7 @@ position: relative;
     height: 44px;
     justify-content: center;
     align-items: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-icon-photo {
