@@ -324,7 +324,7 @@ transition:  background-color  250ms cubic-bezier(0.4, 0, 0.2, 1);
 .main-card {
     width: 370px;
     border: 1px solid #EEE;
-    
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .main-foto:focus {
@@ -369,6 +369,7 @@ transition:  background-color  250ms cubic-bezier(0.4, 0, 0.2, 1);
     top: 0;
     left: 0;
  position: absolute;
+ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
