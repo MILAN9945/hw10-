@@ -210,7 +210,6 @@ transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
     fill: #757575;
 }
 
-
 .button-portfolio {
     color: #212121;
     text-align: center;
@@ -221,7 +220,6 @@ transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
     line-height: 26px;
     /* 162.5% */
     letter-spacing: 0.48px;
-
     width: 130px;
     height: 38px;
     flex-shrink: 0;
@@ -231,10 +229,7 @@ transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
 transition:  background-color  250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
-
 .button-portfolio:hover {
-
     color: #FFF;
     text-align: center;
     font-family: Roboto;
@@ -246,13 +241,11 @@ transition:  background-color  250ms cubic-bezier(0.4, 0, 0.2, 1);
     letter-spacing: 0.48px;
     border-radius: 4px;
     background: #2196F3;
-
     /* shadow-middle */
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 
 .button-portfolio:focus {
-
     color: #FFF;
     text-align: center;
     font-family: Roboto;
@@ -264,11 +257,9 @@ transition:  background-color  250ms cubic-bezier(0.4, 0, 0.2, 1);
     letter-spacing: 0.48px;
     border-radius: 4px;
     background: #2196F3;
-
     /* shadow-middle */
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
-
 
 /* hero */
 .hero-button {
@@ -305,20 +296,16 @@ transition:  background-color  250ms cubic-bezier(0.4, 0, 0.2, 1);
     fill: #2196F3;
 }
 
-
 .button-list {
 
     display: flex;
     justify-content: center;
     gap: 8px;
-
-
 }
 
 .main-buttons {
     padding-top: 94px;
 }
-
 
 /* galey */
 .main-card {
@@ -337,29 +324,18 @@ transition:  background-color  250ms cubic-bezier(0.4, 0, 0.2, 1);
     box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
-
-
-
-
 .idk-container {
     padding-left: 24px;
     padding-bottom: 20px;
     padding-top: 20px;
 }
 
-
 .cards-list {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-
     margin-top: 56px;
     padding-bottom: 94px;
-
-}
-
-.overlay:hover { 
-    opacity:1 ;
 
 }
 
@@ -371,7 +347,9 @@ transition:  background-color  250ms cubic-bezier(0.4, 0, 0.2, 1);
  position: absolute;
  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+ .main-card:hover .overlay{
+opacity: 1;
+ }
 
 .main-text {
     font-family: var(--font-family);
@@ -413,22 +391,13 @@ transition:  background-color  250ms cubic-bezier(0.4, 0, 0.2, 1);
     letter-spacing: 0.48px;
 }
 
-
-
-
-
 /* footer */
 
 .footer {
-
-
     background: #2F303A;
     padding-top: 60px;
     padding-bottom: 60px;
-
-
 }
-
 
 .logo {
     color: #2196F3;
@@ -440,7 +409,6 @@ transition:  background-color  250ms cubic-bezier(0.4, 0, 0.2, 1);
     letter-spacing: 0.78px;
 }
 
-
 .footer-logo {
     color: #FFF;
     font-family: Raleway;
@@ -449,10 +417,6 @@ transition:  background-color  250ms cubic-bezier(0.4, 0, 0.2, 1);
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.78px;
-
-
-
-
 }
 
 .footer-text {
@@ -470,7 +434,6 @@ transition:  background-color  250ms cubic-bezier(0.4, 0, 0.2, 1);
     /* 171.429% */
     letter-spacing: 0.42px;
     margin-top: 20px;
-
 }
 
 .footer-gmail {
@@ -482,7 +445,6 @@ transition:  background-color  250ms cubic-bezier(0.4, 0, 0.2, 1);
     line-height: 24px;
     /* 171.429% */
     letter-spacing: 0.42px;
-
 }
 
 .footer-contact {
@@ -494,7 +456,6 @@ transition:  background-color  250ms cubic-bezier(0.4, 0, 0.2, 1);
     line-height: 24px;
     /* 171.429% */
     letter-spacing: 0.42px;
-
 }
 
 .footer-icon-photo:focus {
@@ -513,34 +474,25 @@ transition:  background-color  250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin-right: 10px;
 }
 
-
-
 .services-icons {
     width: 10px;
     height: 16px;
     margin-right: 10px;
 }
 
-
 .footer-icon-list {
     display: flex;
     gap: 10px;
-
 }
 
 .footer-icons {
     width: 20px;
     height: 20px;
-
 }
 
 .footer-icon {
     margin-top: 20px;
 }
-
-
-
-
 
 .footer-icon-photo {
     display: flex;
@@ -555,7 +507,6 @@ transition:  background-color  250ms cubic-bezier(0.4, 0, 0.2, 1);
     border-radius: 50px;
     background-color: #FFFFFF1A;
 }
-
 
 .footer-text-icon {
     color: #FFF;

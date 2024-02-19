@@ -2,10 +2,6 @@ body {
     font-family: 'Roboto';
 }
 
-
-
-
-
 /* хедер */
 .container {
     width: 1200px;
@@ -18,7 +14,6 @@ body {
 .header-contair {
     display: flex;
     align-items: center;
-
 }
 
 .header {
@@ -37,11 +32,7 @@ body {
     display: flex;
     margin-left: 93px;
     width: 100%;
-
-
 }
-
-
 
 .a {
     text-decoration: none;
@@ -57,7 +48,6 @@ body {
     letter-spacing: 0.78px;
 }
 
-
 .header-logo {
     color: #000;
     font-family: Raleway;
@@ -66,9 +56,6 @@ body {
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.78px;
-
-
-
 }
 
 .header-contacts {
@@ -76,17 +63,13 @@ body {
     gap: 50px;
 }
 
-
-
 .header-l {
     flex: content;
 
 }
 
 .header-link {
-
     color: #212121;
-
     font-family: Roboto;
     font-size: 14px;
     font-style: normal;
@@ -94,10 +77,7 @@ body {
     line-height: normal;
     letter-spacing: 0.28px;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-
 }
-
 
 .header-link:hover {
     color: #2196F3;
@@ -118,7 +98,7 @@ body {
     display: block;
     top: 44px;
     opacity: 0;
-    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-link:hover::after {
@@ -141,20 +121,16 @@ body {
     top: 44px;
 }
 
-
-
 .header-contact-link {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
     color: #757575;
-
     display: flex;
     align-items: center;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 
 .header-contact-link:hover .heder-contact {
     color: #2196F3;
@@ -180,7 +156,6 @@ body {
     outline: none;
 }
 
-
 .header-contact-link:hover .services-icons {
     fill: #2196F3;
 }
@@ -189,12 +164,9 @@ body {
     fill: #2196F3;
 }
 
-
 .header-contact-link:focus .services-icon {
     fill: #2196F3;
 }
-
-
 
 .services-icon {
     width: 16px;
@@ -203,15 +175,12 @@ body {
     fill: #757575;
 }
 
-
-
 .services-icons {
     width: 10px;
     height: 16px;
     margin-right: 10px;
     fill: #757575;
 }
-
 
 /* герой */
 
@@ -222,14 +191,10 @@ body {
     align-items: center;
     padding-top: 200px;
     padding-bottom: 200px;
-
 }
-
-
 
 .hero-title {
     width: 696px;
-
     color: #FFF;
     text-align: center;
     font-family: Roboto;
@@ -242,18 +207,13 @@ body {
     text-transform: uppercase;
     margin-left: auto;
     margin-right: auto;
-
     margin-bottom: 30px;
-
-
-
 }
 
 .hero-button {
     width: 216px;
     height: 50px;
     flex-shrink: 0;
-
     color: #FFF;
     text-align: center;
     font-family: Roboto;
@@ -263,14 +223,11 @@ body {
     line-height: 30px;
     /* 187.5% */
     letter-spacing: 0.96px;
-
     display: block;
     border: none;
-
     border-radius: 4px;
     background: #2196F3;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-
     color: #FFFFFF;
     margin-left: auto;
     margin-right: auto;
@@ -278,34 +235,20 @@ body {
 
 }
 
-
-
-
-
-
 /* правила */
 
 .adventage {
-
     padding-top: 94px;
     padding-bottom: 94px;
-
 }
 
 .adventage-txt {
     align-items: center;
-
 }
 
-
-
-
 .adventage-list {
-
     display: flex;
     gap: 30px;
-
-
 }
 
 .adventage-text:nth-child(1)::before {
@@ -330,9 +273,6 @@ body {
     background-color: #F5F4FA;
     content: "";
     display: block;
-
-    ;
-
     background-repeat: no-repeat;
     background-position: center;
     margin-bottom: 30px;
@@ -349,16 +289,12 @@ body {
     letter-spacing: 0.42px;
     text-transform: uppercase;
     margin-bottom: 10px;
-
-
-
 }
 
 .adventage-item {
     width: 270px;
     height: 72px;
     flex-shrink: 0;
-
     color: #757575;
     font-family: Roboto;
     font-size: 14px;
@@ -367,8 +303,6 @@ body {
     line-height: 24px;
     /* 171.429% */
     letter-spacing: 0.42px;
-
-
 }
 
 .adventage-link::before {
@@ -378,9 +312,6 @@ body {
     background: #F5F4FA;
 }
 
-
-
-
 /* work */
 
 .work {
@@ -388,13 +319,11 @@ body {
 }
 
 .work-title {
-
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
-
     color: #212121;
     margin-bottom: 50px;
 }
@@ -403,7 +332,6 @@ body {
     width: 370px;
     height: 294px;
     flex-shrink: 0;
-
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
 
@@ -440,7 +368,6 @@ body {
 /* team */
 .team {
     background: #F5F4FA;
-
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -459,9 +386,7 @@ body {
 }
 
 .team-text {
-
     color: #757575;
-
     text-align: center;
     font-family: Roboto;
     font-size: 16px;
@@ -481,34 +406,24 @@ body {
     font-weight: 500;
     line-height: normal;
     letter-spacing: 0.48px;
-
-
 }
 
 .team-item {
-
-
-
     background-color: #FFF;
     border-radius: 0px 0px 4px 4px;
     color: #757575;
     padding-bottom: 30px;
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-
 }
 
 .team-img {
     height: 260px;
     width: 270px;
     margin-bottom: 30px;
-
 }
-
-
 
 .team-list {
     display: flex;
-
     gap: 30px;
 }
 
@@ -518,7 +433,6 @@ body {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
 .team-icon-photo {
     display: flex;
     width: 44px;
@@ -526,12 +440,11 @@ body {
     align-items: center;
     justify-content: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 50px;
 }
 
 .team-icon-photo:hover {
-    border-radius: 50px;
     background-color: #2196F3;
-
 }
 
 .team-icon-photo:focus {
@@ -544,23 +457,17 @@ body {
 .team-icon:hover {
     fill: #FFFFFF;
     border-radius: 50px;
-
 }
 
 .team-icon:focus {
     fill: #FFFFFF;
     border-radius: 50px;
-
 }
 
 .team-subicon {
     width: 20px;
     height: 20px;
 }
-
-
-
-
 
 .team-sublist {
     display: flex;
@@ -572,14 +479,11 @@ body {
 /* footer */
 
 .footer {
-
-
     background: #2F303A;
     padding-top: 60px;
     padding-bottom: 60px;
 
 }
-
 
 .logo {
     color: #2196F3;
@@ -591,7 +495,6 @@ body {
     letter-spacing: 0.78px;
 }
 
-
 .footer-logo {
     color: #FFF;
     font-family: Raleway;
@@ -600,10 +503,6 @@ body {
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.78px;
-
-
-
-
 }
 
 .footer-text {
@@ -632,7 +531,6 @@ body {
     line-height: 24px;
     /* 171.429% */
     letter-spacing: 0.42px;
-
 }
 
 .footer-contact {
@@ -644,38 +542,25 @@ body {
     line-height: 24px;
     /* 171.429% */
     letter-spacing: 0.42px;
-
-
-
 }
 
 .footer-container {
     display: flex;
 }
 
-
-
-
-
 .footer-icon-list {
     display: flex;
     gap: 10px;
-
 }
 
 .footer-icons {
     width: 20px;
     height: 20px;
-
 }
 
 .footer-icon {
     margin-top: 20px;
 }
-
-
-
-
 
 .footer-icon-photo {
     display: flex;
@@ -683,8 +568,7 @@ body {
     height: 44px;
     justify-content: center;
     align-items: center;
-
-    transition:  background-color  250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-icon-photo {
@@ -701,7 +585,6 @@ body {
     border-radius: 50px;
     background-color: #2196F3;
 }
-
 
 .footer-text-icon {
     color: #FFF;
@@ -739,32 +622,23 @@ body {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
-
 .clients-icons:focus .cliehts-icon {
     fill: #2196F3;
-
 }
 
 .clients-icons:hover .cliehts-icon {
     fill: #2196F3;
 }
 
-
 .clients-icons:hover {
     border: 1px solid #2196F3;
-
 }
 
 .clients-icons:focus {
     border: 1px solid #2196F3;
 }
 
-
-
-
 .clients-title {
-
     color: #212121;
     text-align: center;
     font-family: Roboto;
@@ -786,7 +660,6 @@ body {
     padding: 16px 32px 16px 32px;
     display: block;
     outline: none;
-    
 }
 
 .backdrop {
@@ -813,11 +686,8 @@ body {
 
 }
 
-input {}
-
 .backdrop-subtitle {
     color: #757575;
-
     font-family: Roboto;
     font-size: 12px;
     font-style: normal;
@@ -860,7 +730,6 @@ input {}
     margin-top: 30px;
     margin: 30px 164px 0px 130px;
     border: none;
-
 }
 
 .backdrop-svg {
@@ -882,8 +751,6 @@ input {}
     background-color: #FFF;
     stroke-width: 1px;
     border: 1px solid rgba(0, 0, 0, 0.10);
-
-
 }
 
 .backdrop-subsvg {
@@ -904,8 +771,6 @@ input {}
     border: 1px solid rgba(33, 33, 33, 0.20);
     padding: 11px 12px 11px 42px;
 }
-
-
 
 .backdrop-subtext {
     color: #757575;
@@ -941,7 +806,6 @@ input {}
 
 .backdrop-subbox {
     position: relative;
-
 }
 
 .backdrop-big-modal {
