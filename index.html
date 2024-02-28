@@ -16,6 +16,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./style/reset.css">
     <link rel="stylesheet" href="./style/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -25,28 +26,28 @@
             <nav class="header-navigation">
                 <ul class="header-pages">
                     <li class="header-pages">
-                        <a href="./index.html" target="_blank" rel="noopener noreferrer" class="header-link border">Студія</a>
+                        <a data-aos="fade-down"data-aos-duration="2500" href="./index.html" target="_blank" rel="noopener noreferrer" class="header-link border">Студія</a>
                         <div class="heder-border"></div>
                     </li>
-                    <li class="header-pages">
+                    <li data-aos="fade-down"data-aos-duration="2500" class="header-pages">
                         <a href="./portfolio.html" target="_blank" rel="noopener noreferrer"
                             class="header-link">Портфоліо</a>
                     </li>
-                    <li class="header-pages">
+                    <li data-aos="fade-down"data-aos-duration="2500" class="header-pages">
                         <a href="./kontakt.html" target="_blank" rel="noopener noreferrer"
                             class="header-link">Контакти</a>
                     </li>
                 </ul>
                 <ul class="header-contacts">
                     <li class="header-contact">
-                        <a href="mailto:info@devstudio.com" class="header-contact-link">
+                        <a data-aos="fade-right"data-aos-duration="2500" href="mailto:info@devstudio.com" class="header-contact-link">
                             <svg class="services-icon">
                                 <use href="./images/symbol-defs.svg#icon-envelope"></use>
                             </svg>
                             <span class="heder-contact"> info@devstudio.com</span>
                         </a>
                     </li>
-                    <li class="header-contact">
+                    <li data-aos="fade-left"data-aos-duration="2500" class="header-contact">
                         <a href="tel:+380961111111" class="header-contact-link">
                             <svg class="services-icons">
                                 <use href="./images/symbol-defs.svg#icon-smartphone"></use>
@@ -62,8 +63,9 @@
         <!-- секція горой  -->
         <section class="hero">
             <div class="container hero-box">
-                <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-                <button class="hero-button" type="button" data-modal-open>Замовити послугу</button>
+                <h1  data-aos="fade-right"data-aos-duration="3000" class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+                <button data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom" data-aos-duration="3000" class="hero-button" type="button" data-modal-open>Замовити послугу</button>
             </div>
         </section>
         <!-- секція правила  -->
@@ -71,25 +73,25 @@
             <div class="adventage-contair container">
                 <div class="adventage-txt">
                     <ul class="adventage-list">
-                        <li class="adventage-text ps1">
+                        <li data-aos="zoom-out-right"data-aos-duration="2500" class="adventage-text ps1">
                             <h2 class="adventage-title ">УВАГА ДО ДЕТАЛЕЙ</h2>
                             <p class="adventage-item">Ідейні міркування, і навіть початок повсякденної роботи з
                                 формування
                                 позиції.</p>
                         </li>
-                        <li class="adventage-text  ps2">
+                        <li data-aos="zoom-out-down"data-aos-duration="2500" class="adventage-text  ps2">
                             <h2 class="adventage-title">ПУНКТУАЛЬНІСТЬ</h2>
                             <p class="adventage-item">Завдання організації, особливо рамки і місце навчання кадрів тягне
                                 у
                                 себе.
                             </p>
                         </li>
-                        <li class="adventage-text  ps3">
+                        <li data-aos="zoom-out-down"data-aos-duration="2500" class="adventage-text  ps3">
                             <h2 class="adventage-title">ПЛАНУВАННЯ</h2>
                             <p class="adventage-item">Так само консультація з широким активом значною мірою зумовлює.
                             </p>
                         </li>
-                        <li class="adventage-text ps4">
+                        <li data-aos="zoom-out-left"data-aos-duration="2500" class="adventage-text ps4">
                             <h2 class="adventage-title">СУЧАСНІ ТЕХНОЛОГІЇ</h2>
                             <p class="adventage-item">Значимість цих проблем настільки очевидна, що реалізація планових
                                 завдань.
@@ -106,17 +108,17 @@
 
                 <ul class="work-list">
 
-                    <li class="work-text"> <img src="./images/work1.jpg" alt="сайти для планшетів">
+                    <li data-aos="fade-up"data-aos-duration="2500" class="work-text"> <img src="./images/work1.jpg" alt="сайти для планшетів">
                         <div class="work-img">
                             <p class="work-subtext">Десктопні додатки</p>
                         </div>
                     </li>
-                    <li class="work-text"> <img src="./images/work2.jpg" alt="мобільні сайти">
+                    <li data-aos="fade-up"data-aos-duration="2500" class="work-text"> <img src="./images/work2.jpg" alt="мобільні сайти">
                         <div class="work-img">
                             <p class="work-subtext">Мобільні додатки</p>
                         </div>
                     </li>
-                    <li class="work-text"> <img src="./images/work3.jpg" alt="дезайнерські рішення">
+                    <li data-aos="fade-up"data-aos-duration="2500" class="work-text"> <img src="./images/work3.jpg" alt="дезайнерські рішення">
                         <div class="work-img">
                             <p class="work-subtext">Дизайнерські рішення</p>
                         </div>
@@ -128,8 +130,8 @@
         <!-- секція Наша команда -->
         <section class="team">
             <div class="container">
-                <h2 class="team-title">Наша команда </h2>
-                <ul class="team-list">
+                <h2 data-aos="zoom-in"data-aos-duration="2500" class="team-title">Наша команда </h2>
+                <ul data-aos="zoom-in"data-aos-duration="2500" class="team-list">
                     <li class="team-item">
                         <img class="team-img" src="./images/team_1.jpg" width="270" alt="працівник1">
                         <h3 class="team-subtitle">Ігор Дем'яненко</h3>
@@ -275,44 +277,44 @@
         </section>
         <section class="clients">
             <div class="container">
-                <h2 class="clients-title">Постійні клієнти</h2>
+                <h2 data-aos="fade-down"data-aos-duration="2500" class="clients-title">Постійні клієнти</h2>
                 <ul class="clients-list">
-                    <li class="clients-item">
+                    <li data-aos="fade-right"data-aos-duration="2500" class="clients-item">
                         <a class="clients-icons" href="1">
                             <svg class="cliehts-icon">
                                 <use href="./images/symbol-defs.svg#icon-logo"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="clients-item">
+                    <li data-aos="fade-down" data-aos-duration="2500" class="clients-item">
                         <a class="clients-icons" href="2">
                             <svg class="cliehts-icon">
                                 <use href="./images/symbol-defs.svg#icon-book"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="clients-item">
+                    <li data-aos="fade-down"data-aos-duration="2500" class="clients-item">
                         <a class="clients-icons" href="3">
                             <svg class="cliehts-icon">
                                 <use href="./images/symbol-defs.svg#icon-logo2"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="clients-item">
+                    <li data-aos="fade-down"data-aos-duration="2500" class="clients-item">
                         <a class="clients-icons" href="4">
                             <svg class="cliehts-icon">
                                 <use href="./images/symbol-defs.svg#icon-logo3"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="clients-item">
+                    <li data-aos="fade-down"data-aos-duration="2500" class="clients-item">
                         <a class="clients-icons" href="5">
                             <svg class="cliehts-icon">
                                 <use href="./images/symbol-defs.svg#icon-logo4"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="clients-item">
+                    <li data-aos="fade-left"data-aos-duration="2500" class="clients-item">
                         <a class="clients-icons" href="6">
                             <svg class="cliehts-icon">
                                 <use href="./images/symbol-defs.svg#icon-logo5"></use>
@@ -326,7 +328,7 @@
     <!-- секція footer -->
     <footer class="footer">
         <div class="container footer-container">
-            <div class="footer-contacts">
+            <div data-aos="fade-right"data-aos-duration="2500" class="footer-contacts">
                 <a class="footer-logo" href="./index.html"><span class="logo"> Web</span>Studio</a>
                 <address class="footer-address">м. Київ, пр-т Лесі Українки, 26</address>
                 <ul class="footer-list">
@@ -338,7 +340,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="footer-icons-photo">
+            <div data-aos="fade-left"data-aos-duration="2500" class="footer-icons-photo">
                 <h2 class="footer-text-icon">приєднуйтесь</h2>
                 <ul class="footer-icon-list">
                     <li class="footer-icon">
@@ -428,6 +430,10 @@
         </div>
     </div>
     <script src="./js/modal.js" type="module"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 
 </html>

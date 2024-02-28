@@ -56,6 +56,19 @@ body {
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.78px;
+    animation-name:logo-left ;
+    animation-duration: 2500ms;
+}
+@keyframes logo-left{
+0%{
+    transform: translate(-500px,0);
+opacity: 0;
+}
+100%{
+    transform: translate(0,0);
+    opacity:1 ;
+}
+
 }
 
 .header-contacts {
@@ -326,6 +339,18 @@ body {
     letter-spacing: 0.03em;
     color: #212121;
     margin-bottom: 50px;
+   animation-name:text-mou ;
+   animation-duration: 2s;
+}
+@keyframes text-mou{
+    0%{
+        transform: translate(0,-500px);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0,0);
+        opacity: 1;
+    }
 }
 
 .work.text {

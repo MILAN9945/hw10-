@@ -62,8 +62,18 @@ position: relative;
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.78px;
-
-
+    animation-name:logo-left ;
+    animation-duration: 2500ms;
+}
+@keyframes logo-left{
+0%{
+    transform: translate(-500px,0) scale(0);
+opacity: 0;
+}
+100%{
+    transform: translate(0,0) scale(1);
+    opacity:1 ;
+}
 
 }
 
