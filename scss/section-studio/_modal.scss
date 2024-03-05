@@ -1,0 +1,160 @@
+.modal {
+    width: 528px;
+    height: 581px;
+    border-radius: 4px;
+    background: #FFF;
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 8px 40px 40px 40px;
+
+}
+
+.backdrop-subtitle {
+    color: #757575;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.12px;
+    margin-bottom: 4px;
+}
+
+.backdrop-title {
+    color: #212121;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.backdrop-button {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    /* 187.5% */
+    letter-spacing: 0.96px;
+    width: 200px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    margin-top: 30px;
+    margin: 30px 164px 0px 130px;
+    border: none;
+}
+
+.backdrop-svg {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 11px;
+    left: 12px;
+}
+
+.backdrop-cross {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    border-radius: 60%;
+    border: none;
+    background-color: #FFF;
+    stroke-width: 1px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+}
+
+.backdrop-subsvg {
+    width: 18px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.backdrop-list {
+    padding-top: 12px;
+}
+
+.backdrop-modal {
+    width: 448px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid rgba(33, 33, 33, 0.20);
+    padding: 11px 12px 11px 42px;
+}
+
+.backdrop-subtext {
+    color: #757575;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 171.429% */
+    letter-spacing: 0.42px;
+}
+
+.backdrop-link {
+    color: #2196F3;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.42px;
+    text-decoration-line: underline;
+}
+
+.backdrop-box {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.backdrop-text {
+    margin-right: 8px;
+}
+
+.backdrop-subbox {
+    position: relative;
+}
+
+.backdrop-big-modal {
+    width: 448px;
+    height: 120px;
+    border-radius: 4px;
+    border: 1px solid rgba(33, 33, 33, 0.20);
+    padding-bottom: 80px;
+    padding-left: 16px;
+    color: rgba(117, 117, 117, 0.50);
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.12px;
+}
+
+.backdrop-item {
+    margin-bottom: 10px;
+}
+
+.is-hidden {
+    pointer-events: none;
+    opacity: 0;
+}
