@@ -1,6 +1,6 @@
 .hero {
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40)), url(../images/box.jpg);
-    background-color: #2F303A;
+    background-color: $title-color;
     display: flex;
     align-items: center;
     padding-top: 200px;
@@ -9,7 +9,7 @@
 
 .hero-title {
     width: 696px;
-    color: #FFF;
+    color:$additionaltext-color;
     text-align: center;
     font-family: Roboto;
     font-size: 44px;
@@ -28,7 +28,7 @@
     width: 216px;
     height: 50px;
     flex-shrink: 0;
-    color: #FFF;
+    color: $additionaltext-color;
     text-align: center;
     font-family: Roboto;
     font-size: 16px;
@@ -40,9 +40,9 @@
     display: block;
     border: none;
     border-radius: 4px;
-    background: #2196F3;
+    background: $accented-color;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    color: #FFFFFF;
+    color: $additionaltext-color;
     margin-left: auto;
     margin-right: auto;
     cursor: pointer;

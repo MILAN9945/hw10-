@@ -2,7 +2,7 @@
     width: 528px;
     height: 581px;
     border-radius: 4px;
-    background: #FFF;
+    background: $additionaltext-color;
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
     transform: translate(-50%, -50%);
     position: absolute;
@@ -38,7 +38,7 @@
 }
 
 .backdrop-button {
-    color: #FFF;
+    color: $additionaltext-color;
     text-align: center;
     font-family: Roboto;
     font-size: 16px;
@@ -51,7 +51,7 @@
     height: 50px;
     flex-shrink: 0;
     border-radius: 4px;
-    background: #2196F3;
+    background: $accented-color;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     margin-top: 30px;
     margin: 30px 164px 0px 130px;
@@ -74,7 +74,7 @@
     right: 8px;
     border-radius: 60%;
     border: none;
-    background-color: #FFF;
+    background-color: $additionaltext-color;
     stroke-width: 1px;
     border: 1px solid rgba(0, 0, 0, 0.10);
 }
@@ -99,7 +99,7 @@
 }
 
 .backdrop-subtext {
-    color: #757575;
+    color: $text-color;
     font-family: Roboto;
     font-size: 14px;
     font-style: normal;
@@ -110,7 +110,7 @@
 }
 
 .backdrop-link {
-    color: #2196F3;
+    color: $accented-color;
     font-family: Roboto;
     font-size: 14px;
     font-style: normal;

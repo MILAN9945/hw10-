@@ -1,11 +1,11 @@
 .footer {
-    background: #2F303A;
+    background: $title-color;
     padding-top: 60px;
     padding-bottom: 60px;
 }
 
 .logo {
-    color: #2196F3;
+    color: $accented-color;
     font-family: Raleway;
     font-size: 26px;
     font-style: normal;
@@ -15,7 +15,7 @@
 }
 
 .footer-logo {
-    color: #FFF;
+    color:$additionaltext-color;
     font-family: Raleway;
     font-size: 26px;
     font-style: normal;
@@ -30,7 +30,7 @@
 }
 
 .footer-address {
-    color: #FFF;
+    color: $additionaltext-color;
     font-family: Roboto;
     font-size: 14px;
     font-style: normal;
@@ -64,13 +64,13 @@
 }
 
 .footer-icon-photo:focus {
-    background-color: #2196F3;
+    background-color: $accented-color;
     border-radius: 50px;
 }
 
 .footer-icon-photo:hover {
     border-radius: 50px;
-    background-color: #2196F3;
+    background-color: $accented-color;
 }
 
 .services-icon {
@@ -110,11 +110,11 @@
 
 .footer-icon-photo {
     border-radius: 50px;
-    background-color: #FFFFFF1A;
+    background-color: $title-color;
 }
 
 .footer-text-icon {
-    color: #FFF;
+    color: $additionaltext-color;
     font-family: Roboto;
     font-size: 14px;
     font-style: normal;
@@ -125,7 +125,7 @@
 }
 
 .footer-icon-photo {
-    fill: #FFFFFF;
+    fill: $additionaltext-color;
 }
 
 .footer-container {

@@ -8,28 +8,28 @@
 .cliehts-icon {
     width: 106px;
     height: 60px;
-    fill: #AFB1B8;
+    fill: $text-color;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-icons:focus .cliehts-icon {
-    fill: #2196F3;
+    fill: $accented-color;
 }
 
 .clients-icons:hover .cliehts-icon {
-    fill: #2196F3;
+    fill: $accented-color;
 }
 
 .clients-icons:hover {
-    border: 1px solid #2196F3;
+    border: 1px solid $accented-color;
 }
 
 .clients-icons:focus {
-    border: 1px solid #2196F3;
+    border: 1px solid $accented-color;
 }
 
 .clients-title {
-    color: #212121;
+    color: $title-color;
     text-align: center;
     font-family: Roboto;
     font-size: 36px;
@@ -46,7 +46,7 @@
 
 .clients-icons {
     border-radius: 4px;
-    border: 1px solid #AFB1B8;
+    border: 1px solid $text-color;
     padding: 16px 32px 16px 32px;
     display: block;
     outline: none;

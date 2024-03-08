@@ -1,5 +1,5 @@
 .button-portfolio {
-    color: #212121;
+    color: $title-color;
     text-align: center;
     font-family: Roboto;
     font-size: 16px;
@@ -12,13 +12,13 @@
     height: 38px;
     flex-shrink: 0;
     border-radius: 4px;
-    background: #F5F4FA;
+    background: $additionaltext-color;
     border: none;
 transition:  background-color  250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-portfolio:hover {
-    color: #FFF;
+    color:$additionaltext-color;
     text-align: center;
     font-family: Roboto;
     font-size: 16px;
@@ -28,13 +28,13 @@ transition:  background-color  250ms cubic-bezier(0.4, 0, 0.2, 1);
     /* 162.5% */
     letter-spacing: 0.48px;
     border-radius: 4px;
-    background: #2196F3;
+    background: $accented-color;
     /* shadow-middle */
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 
 .button-portfolio:focus {
-    color: #FFF;
+    color: $additionaltext-color;
     text-align: center;
     font-family: Roboto;
     font-size: 16px;
@@ -44,43 +44,43 @@ transition:  background-color  250ms cubic-bezier(0.4, 0, 0.2, 1);
     /* 162.5% */
     letter-spacing: 0.48px;
     border-radius: 4px;
-    background: #2196F3;
+    background: $accented-color;
     /* shadow-middle */
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 
 .hero-button {
-    color: #2196F3;
+    color: $accented-color;
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
-    color: #2196F3;
+    color: $additionaltext-color;
+    color: $accented-color;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-button:hover {
-    color: #2196F3;
+    color: $accented-color;
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
-    color: #2196F3;
+    color: $additionaltext-color;
+    color: $accented-color;
 }
 
 .hero-button:focus {
-    color: #2196F3;
+    color: $accented-color;
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
     text-align: center;
     letter-spacing: 0.03em;
-    fill: #FFFFFF;
-    fill: #2196F3;
+    fill: $additionaltext-color;
+    fill: $accented-color;
 }
 
 .button-list {
