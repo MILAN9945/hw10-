@@ -1,129 +1,126 @@
 .footer {
-    background: $title-color;
+    background: $background-color;
     padding-top: 60px;
     padding-bottom: 60px;
 
-}
 
-.logo {
-    color: $accented-color;
-    font-family: Raleway;
-    font-size: 26px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 0.78px;
-}
+    &__sublogo {
+        color: $accented-color;
+        font-family: Raleway;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 0.78px;
+    }
 
-.footer-logo {
-    color: $additionaltext-color;
-    font-family: Raleway;
-    font-size: 26px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 0.78px;
-}
+    &__logo {
+        color: $additionaltext-color;
+        font-family: Raleway;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 0.78px;
+    }
 
-.footer-text {
-    margin-top: 9px;
-}
+    &__text {
+        margin-top: 9px;
+    }
 
-.footer-address {
-    color: $additionaltext-color;
-    font-family: Roboto;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-    /* 171.429% */
-    letter-spacing: 0.42px;
-    margin-top: 20px;
+    &__address {
+        color: $additionaltext-color;
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        /* 171.429% */
+        letter-spacing: 0.42px;
+        margin-top: 20px;
 
-}
+    }
 
-.footer-gmail {
-    color: rgba(255, 255, 255, 0.60);
-    font-family: Roboto;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-    /* 171.429% */
-    letter-spacing: 0.42px;
-}
+    &__gmail {
+        color: rgba(255, 255, 255, 0.60);
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        /* 171.429% */
+        letter-spacing: 0.42px;
+    }
 
-.footer-contact {
-    color: rgba(255, 255, 255, 0.60);
-    font-family: Roboto;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-    /* 171.429% */
-    letter-spacing: 0.42px;
-}
+    &__contact {
+        color: rgba(255, 255, 255, 0.60);
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        /* 171.429% */
+        letter-spacing: 0.42px;
+    }
 
-.footer-container {
-    display: flex;
-}
+    &__container {
+        display: flex;
+    }
 
-.footer-icon-list {
-    display: flex;
-    gap: 10px;
-}
+    &__iconlist {
+        display: flex;
+        gap: 10px;
+    }
 
-.footer-icons {
-    width: 20px;
-    height: 20px;
-}
+    &__icons {
+        width: 20px;
+        height: 20px;
+    }
 
-.footer-icon {
-    margin-top: 20px;
-}
+    &__icon {
+        margin-top: 20px;
+    }
 
-.footer-icon-photo {
-    display: flex;
-    width: 44px;
-    height: 44px;
-    justify-content: center;
-    align-items: center;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+    &__iconphoto {
+        display: flex;
+        width: 44px;
+        height: 44px;
+        justify-content: center;
+        align-items: center;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-.footer-icon-photo {
-    border-radius: 50px;
-    background-color: $title-color;
-}
+        background-color: $title-color;
+        fill: $additionaltext-color;
+        border-radius: 50px;
+        background-color: rgba(255, 255, 255, .1019607843);
 
-.footer-icon-photo:focus {
-    color: $additionaltext-color;
-    background-color: $accented-color;
-}
+        &:focus {
+            color: $additionaltext-color;
+            background-color: $accented-color;
+        }
 
-.footer-icon-photo:hover {
-    border-radius: 50px;
-    background-color: $accented-color;
-}
+        &:hover {
+            border-radius: 50px;
+            background-color: $accented-color;
+        }
+    }
 
-.footer-text-icon {
-    color: $additionaltext-color;
-    font-family: Roboto;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 0.42px;
-    text-transform: uppercase;
-}
+    &__iconsphoto {
+        display: flex;
+        flex-direction: column;
+        padding-top: 12px;
+        margin-left: 70px;
+    }
 
-.footer-icon-photo {
-    fill: $additionaltext-color;
-}
+    &__texticon {
+        color: $additionaltext-color;
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 0.42px;
+        text-transform: uppercase;
+    }
 
-.footer-icons-photo {
-    display: flex;
-    flex-direction: column;
-    padding-top: 12px;
-    margin-left: 70px;
 }

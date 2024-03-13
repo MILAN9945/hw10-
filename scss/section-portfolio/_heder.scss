@@ -1,41 +1,29 @@
-.header-contair {
-    display: flex;
-    align-items: center;
-    padding-bottom: 32px;
-}
+
 
 .header {
     padding-top: 24px;
+    padding-bottom: 25px;
+
+    
+&__contair {
+    display: flex;
+    align-items: center;
 }
 
-
-
-.header-pages {
-
-
+&__pages {
     display: flex;
     gap: 32px;
     margin-right: auto;
-position: relative;
-
+    position: relative;
 }
-
-.header-navigation {
+&__navigation {
     display: flex;
     margin-left: 93px;
     width: 100%;
-
-
 }
 
-
-
-.a {
-    text-decoration: none;
-}
-
-.logo {
-    color: $accented-color;
+&__sublogo {
+    color:$accented-color ;
     font-family: Raleway;
     font-size: 26px;
     font-style: normal;
@@ -43,9 +31,7 @@ position: relative;
     line-height: normal;
     letter-spacing: 0.78px;
 }
-
-
-.header-logo {
+&__logo {
     color: $title-color;
     font-family: Raleway;
     font-size: 26px;
@@ -56,157 +42,135 @@ position: relative;
     animation-name:logo-left ;
     animation-duration: 2500ms;
 }
-@keyframes logo-left{
-0%{
-    transform: translate(-500px,0) scale(0);
-opacity: 0;
-}
-100%{
-    transform: translate(0,0) scale(1);
-    opacity:1 ;
-}
-
-}
-
-.header {
-    border-bottom: solid $additionaltext-color;
-
-}
-
-.header-contacts {
+&__contacts {
     display: flex;
     gap: 50px;
-
-
 }
-
-.header-l {
-    flex: content;
-
-}
-
-
-.header-link {
-
-    color: $title-color;
-
-    font-family: Roboto;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    letter-spacing: 0.28px;
-
-transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
-}
-
-.header-link:hover {
-    color: $accented-color;
-}
-
-.header-link:focus {
-    color: $accented-color;
-}
-
-.header-contact-link {
-    color: $text-color;
-
-    font-family: Roboto;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    letter-spacing: 0.28px;
-
-    display: flex;
-    align-items: center;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.header-contact-link:hover {
-
-    color: $accented-color;
-}
-
-.header-contact-link:focus {
-    outline: none;
-}
-
-.header-contact-link:hover .heder-contact {
-    color: $accented-color;
-}
-
-.header-contact-link:focus .heder-contact {
-    color: $accented-color;
-}
-
-.header-contact-link:hover .services-icon {
-    color: $accented-color;
-}
-
-.header-contact-link:hover .heder-contacts {
-    color: $accented-color;
-}
-
-.header-contact-link:focus .heder-contacts {
-    color:$accented-color;
-}
-
-
-
-
-.header-contact-link:hover .services-icons {
-    fill: $accented-color;
-}
-
-
-.header-contact-link:focus .services-icons {
-    fill: $accented-color;
-}
-
-.header-contact-link:focus .services-icon {
-    fill: $accented-color ;
-}
-
-.header-link::after{
-    border-radius: 2px;
-    width: 100%;
-    height: 3px;
-    content: "";
-    background: $accented-color;
-    position: absolute;
-    left: 0;
-    display: block;
-    top: 44px;
+@keyframes logo-left{
+    0%{
+        transform: translate(-500px,0);
     opacity: 0;
-    transition:opacity 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
-}
+    }
+    100%{
+        transform: translate(0,0);
+        opacity:1 ;
+    }
+    
+    }
+    &__l {
+        flex: content;
+    
+    }
+    
+    &__link {
+        color: $title-color;
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0.28px;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-.header-link:hover::after {
-  opacity: 1;
-}
-
-.border{
-    color: $accented-color;
-}
-
-.heder-border{
-    border-radius: 2px;
-    width: 100%;
-    height: 3px;
-    content: "";
-    background: $accented-color;
-    position: absolute;
-    left: 0;
-    display: block;
-    top: 44px; 
-}
-
-
-.services-icons {
-    fill: $text-color;
-}
-
-.services-icon {
-    fill: $text-color;
+        &:hover {
+            color: $accented-color;
+        }
+        
+        &:focus {
+            color: $accented-color;
+        }
+        &::after {
+            border-radius: 2px;
+            width: 100%;
+            height: 3px;
+            content: "";
+            background: $accented-color;
+            position: absolute;
+            left: 0;
+            display: block;
+            top: 44px;
+            opacity: 0;
+            transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        &:hover::after {
+            opacity: 1;
+        }
+        
+    }
+    &__subborder {
+        color: $accented-color;
+    }
+    
+    &__border {
+        border-radius: 2px;
+        width: 100%;
+        height: 3px;
+        content: "";
+        background: $accented-color;
+        position: absolute;
+        left: 0;
+        display: block;
+        top: 44px;
+    }
+    &__contact-link {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        color: $text-color;
+        display: flex;
+        align-items: center;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+        &:hover .heder-contact {
+            color: $accented-color;
+        }
+        
+        &:focus .heder-contact {
+            color: $accented-color;
+        }
+        
+        &:hover .services-icon {
+            fill: $accented-color;
+        }
+        
+        &:hover .heder-contacts {
+            color: $accented-color;
+        }
+        
+        &:focus .heder-contacts {
+            color: $accented-color;
+        }
+        
+        &:focus {
+            outline: none;
+        }
+        
+        &:hover .services-icons {
+            fill: $accented-color;
+        }
+        
+        &:focus .services-icons {
+            fill: $accented-color;
+        }
+        
+        &:focus .services-icon {
+            fill: $accented-color;
+        }
+    }
+    &__icon {
+        width: 16px;
+        height: 12px;
+        margin-right: 10px;
+        fill: $text-color;
+    }
+    
+    &__icons {
+        width: 10px;
+        height: 16px;
+        margin-right: 10px;
+        fill: $text-color;
+    }
+    
 }
