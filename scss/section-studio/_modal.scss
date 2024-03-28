@@ -34,12 +34,10 @@
     text-align: center;
     font-family: Roboto;
     font-size: 20px;
-    font-style: normal;
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.6px;
-    display: flex;
-    justify-content: center;
+    @extend %main;
     padding-top: 40px;
 }
 
@@ -57,7 +55,6 @@ padding-bottom: 4px;
     text-align: center;
     font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
     font-weight: 700;
     line-height: 30px;
     /* 187.5% */
@@ -116,10 +113,7 @@ padding-bottom: 4px;
 &__subtext {
     color: $text-color;
     font-family: Roboto;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
+    @extend %contact;
     /* 171.429% */
     letter-spacing: 0.42px;
 }
@@ -127,17 +121,13 @@ padding-bottom: 4px;
 &__link {
     color: $accented-color;
     font-family: Roboto;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
+    @extend %contact;
     letter-spacing: 0.42px;
     text-decoration-line: underline;
 }
 
 &__box {
-    display: flex;
-    justify-content: center;
+    @extend %main;
     padding-top: 20px;
 }
 

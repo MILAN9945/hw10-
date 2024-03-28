@@ -7,9 +7,7 @@
     &__sublogo {
         color: $accented-color;
         font-family: Raleway;
-        font-size: 26px;
-        font-style: normal;
-        font-weight: 700;
+        @extend %logo;
         line-height: normal;
         letter-spacing: 0.78px;
     }
@@ -17,9 +15,8 @@
     &__logo {
         color: $additionaltext-color;
         font-family: Raleway;
-        font-size: 26px;
-        font-style: normal;
-        font-weight: 700;
+        @extend %logo;
+
         line-height: normal;
         letter-spacing: 0.78px;
     }
@@ -31,10 +28,7 @@
     &__address {
         color: $additionaltext-color;
         font-family: Roboto;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 24px;
+        @extend %contact;
         /* 171.429% */
         letter-spacing: 0.42px;
         margin-top: 20px;
@@ -44,10 +38,7 @@
     &__gmail {
         color: rgba(255, 255, 255, 0.60);
         font-family: Roboto;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 24px;
+        @extend %contact;
         /* 171.429% */
         letter-spacing: 0.42px;
     }
@@ -55,10 +46,7 @@
     &__contact {
         color: rgba(255, 255, 255, 0.60);
         font-family: Roboto;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 24px;
+        @extend %contact;
         /* 171.429% */
         letter-spacing: 0.42px;
     }
@@ -82,10 +70,10 @@
     }
 
     &__iconphoto {
-        display: flex;
+     @extend %main;
         width: 44px;
         height: 44px;
-        justify-content: center;
+        
         align-items: center;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -116,7 +104,6 @@
         color: $additionaltext-color;
         font-family: Roboto;
         font-size: 14px;
-        font-style: normal;
         font-weight: 700;
         line-height: normal;
         letter-spacing: 0.42px;

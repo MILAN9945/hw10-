@@ -25,18 +25,14 @@
 &__sublogo {
     color:$accented-color ;
     font-family: Raleway;
-    font-size: 26px;
-    font-style: normal;
-    font-weight: 700;
+    @extend %logo;
     line-height: normal;
     letter-spacing: 0.78px;
 }
 &__logo {
     color: $title-color;
     font-family: Raleway;
-    font-size: 26px;
-    font-style: normal;
-    font-weight: 700;
+    @extend %logo;
     line-height: normal;
     letter-spacing: 0.78px;
     animation-name:logo-left ;

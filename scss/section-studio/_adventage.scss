@@ -1,6 +1,5 @@
 .adventage {
-    padding-top: 94px;
-    padding-bottom: 94px;
+ @extend %time;
 
     &__txt {
         align-items: center;
@@ -22,8 +21,8 @@
     }
     
     &__text::before {
-        width: 270px;
-        height: 120px;
+       @extend %title;
+
         background-color: $additionaltext-color;
         content: "";
         display: block;
@@ -65,8 +64,7 @@
         letter-spacing: 0.42px;
     }
     &__link::before {
-        width: 270px;
-        height: 120px;
+        @extend %title;
         border-radius: 4px;
         background:$additionaltext-color;
     }

@@ -1,20 +1,12 @@
 
-
-
-
-
-
-
-
 .clients {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    @extend %time;
 
     &__list {
-        display: flex;
+       @extend %main;
         gap: 30px;
         margin-top: 50px;
-        justify-content: center;
+       
     }
 
     &__icons {
@@ -41,14 +33,7 @@
     }
 
     &__title {
-        color: $title-color;
-        text-align: center;
-        font-family: Roboto;
-        font-size: 36px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        letter-spacing: 1.08px;
+     @include title ()
     }
     &__icon {
         width: 106px;
