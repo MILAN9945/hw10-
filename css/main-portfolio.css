@@ -36,15 +36,40 @@ button {
 }
 
 .container {
-  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
 }
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+}
 
 body {
   font-family: "Roboto";
+}
+
+.header__logo, .header__sublogo {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.button__item:focus, .button__item:hover, .button__item, .button__portfolio:focus, .button__portfolio:hover, .button__portfolio {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.button__list {
+  display: flex;
+  justify-content: center;
 }
 
 .header {
@@ -69,18 +94,12 @@ body {
 .header__sublogo {
   color: #2196F3;
   font-family: Raleway;
-  font-size: 26px;
-  font-style: normal;
-  font-weight: 700;
   line-height: normal;
   letter-spacing: 0.78px;
 }
 .header__logo {
   color: #000;
   font-family: Raleway;
-  font-size: 26px;
-  font-style: normal;
-  font-weight: 700;
   line-height: normal;
   letter-spacing: 0.78px;
   animation-name: logo-left;
@@ -215,18 +234,12 @@ body {
   padding-top: 94px;
 }
 .button__list {
-  display: flex;
-  justify-content: center;
   gap: 8px;
 }
 .button__portfolio {
   color: #000;
   text-align: center;
   font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 26px;
   /* 162.5% */
   letter-spacing: 0.48px;
   width: 130px;
@@ -241,10 +254,6 @@ body {
   color: #FFF;
   text-align: center;
   font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 26px;
   /* 162.5% */
   letter-spacing: 0.48px;
   border-radius: 4px;
@@ -256,10 +265,6 @@ body {
   color: #FFF;
   text-align: center;
   font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 26px;
   /* 162.5% */
   letter-spacing: 0.48px;
   border-radius: 4px;
@@ -269,9 +274,6 @@ body {
 }
 .button__item {
   color: #2196F3;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
   text-align: center;
   letter-spacing: 0.03em;
   color: #FFF;
@@ -280,9 +282,6 @@ body {
 }
 .button__item:hover {
   color: #2196F3;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
   text-align: center;
   letter-spacing: 0.03em;
   color: #FFF;
@@ -290,9 +289,6 @@ body {
 }
 .button__item:focus {
   color: #2196F3;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
   text-align: center;
   letter-spacing: 0.03em;
   fill: #FFF;

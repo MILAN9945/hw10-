@@ -36,11 +36,20 @@ button {
 }
 
 .container {
-  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+}
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
 }
 
 body {
@@ -52,9 +61,42 @@ body {
   padding-bottom: 94px;
 }
 
+.adventage__link::before, .adventage__text::before {
+  width: 270px;
+  height: 120px;
+}
+
+.backdrop__link, .backdrop__subtext, .footer__contact, .footer__gmail, .footer__address {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.footer__logo, .footer__sublogo, .header__logo, .header__sublogo {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.backdrop__box, .backdrop__title, .footer__iconphoto, .clients__list, .team__sublist, .team__iconphoto {
+  display: flex;
+  justify-content: center;
+}
+
 .header {
-  padding-top: 24px;
-  padding-bottom: 25px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+@media screen and (min-width: 768px) {
+  .header {
+    padding-top: 21px;
+    padding-bottom: 26px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header {
+    padding-top: 24px;
+    padding-bottom: 25px;
+  }
 }
 .header__contair {
   display: flex;
@@ -62,30 +104,43 @@ body {
 }
 .header__pages {
   display: flex;
-  gap: 32px;
   margin-right: auto;
   position: relative;
 }
+@media screen and (min-width: 768px) {
+  .header__pages {
+    gap: 53px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header__pages {
+    gap: 51px;
+  }
+}
 .header__navigation {
-  display: flex;
-  margin-left: 93px;
+  display: none;
   width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .header__navigation {
+    display: flex;
+    margin-left: 88px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header__navigation {
+    margin-left: 93px;
+  }
 }
 .header__sublogo {
   color: #2196F3;
   font-family: Raleway;
-  font-size: 26px;
-  font-style: normal;
-  font-weight: 700;
   line-height: normal;
   letter-spacing: 0.78px;
 }
 .header__logo {
   color: #000;
   font-family: Raleway;
-  font-size: 26px;
-  font-style: normal;
-  font-weight: 700;
   line-height: normal;
   letter-spacing: 0.78px;
   animation-name: logo-left;
@@ -94,6 +149,18 @@ body {
 .header__contacts {
   display: flex;
   gap: 50px;
+}
+@media screen and (min-width: 768px) {
+  .header__contacts {
+    flex-direction: column;
+    gap: 12px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header__contacts {
+    flex-direction: row;
+    gap: 30px;
+  }
 }
 @keyframes logo-left {
   0% {
@@ -112,7 +179,6 @@ body {
   color: #000;
   font-family: Roboto;
   font-size: 14px;
-  font-style: normal;
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.28px;
@@ -224,8 +290,20 @@ body {
   background-color: #000;
   display: flex;
   align-items: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 118px;
+  padding-bottom: 198px;
+}
+@media screen and (min-width: 768px) {
+  .hero {
+    padding-top: 118px;
+    padding-bottom: 198px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hero {
+    padding-top: 200px;
+    padding-bottom: 280px;
+  }
 }
 .hero__title {
   width: 696px;
@@ -233,7 +311,6 @@ body {
   text-align: center;
   font-family: Roboto;
   font-size: 44px;
-  font-style: normal;
   font-weight: 900;
   line-height: 60px;
   /* 136.364% */
@@ -251,7 +328,6 @@ body {
   text-align: center;
   font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
   font-weight: 700;
   line-height: 30px;
   /* 187.5% */
@@ -283,8 +359,6 @@ body {
   background-image: url(../images/astronaut1.png);
 }
 .adventage__text::before {
-  width: 270px;
-  height: 120px;
   background-color: #FFF;
   content: "";
   display: block;
@@ -322,8 +396,6 @@ body {
   letter-spacing: 0.42px;
 }
 .adventage__link::before {
-  width: 270px;
-  height: 120px;
   border-radius: 4px;
   background: #FFF;
 }
@@ -447,11 +519,9 @@ body {
   background-color: #2196F3;
 }
 .team__iconphoto {
-  display: flex;
   width: 44px;
   height: 44px;
   align-items: center;
-  justify-content: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border-radius: 50px;
 }
@@ -468,17 +538,13 @@ body {
   height: 20px;
 }
 .team__sublist {
-  display: flex;
-  justify-content: center;
   gap: 10px;
   margin-top: 28px;
 }
 
 .clients__list {
-  display: flex;
   gap: 30px;
   margin-top: 50px;
-  justify-content: center;
 }
 .clients__icons {
   border-radius: 4px;
@@ -523,17 +589,12 @@ body {
 .footer__sublogo {
   color: #2196F3;
   font-family: Raleway;
-  font-size: 26px;
-  font-style: normal;
-  font-weight: 700;
   line-height: normal;
   letter-spacing: 0.78px;
 }
 .footer__logo {
   color: #FFF;
   font-family: Raleway;
-  font-size: 26px;
-  font-weight: 700;
   line-height: normal;
   letter-spacing: 0.78px;
 }
@@ -543,9 +604,6 @@ body {
 .footer__address {
   color: #FFF;
   font-family: Roboto;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 24px;
   /* 171.429% */
   letter-spacing: 0.42px;
   margin-top: 20px;
@@ -553,20 +611,12 @@ body {
 .footer__gmail {
   color: rgba(255, 255, 255, 0.6);
   font-family: Roboto;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
   /* 171.429% */
   letter-spacing: 0.42px;
 }
 .footer__contact {
   color: rgba(255, 255, 255, 0.6);
   font-family: Roboto;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
   /* 171.429% */
   letter-spacing: 0.42px;
 }
@@ -585,10 +635,8 @@ body {
   margin-top: 20px;
 }
 .footer__iconphoto {
-  display: flex;
   width: 44px;
   height: 44px;
-  justify-content: center;
   align-items: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   background-color: #000;
@@ -614,7 +662,6 @@ body {
   color: #FFF;
   font-family: Roboto;
   font-size: 14px;
-  font-style: normal;
   font-weight: 700;
   line-height: normal;
   letter-spacing: 0.42px;
@@ -653,12 +700,9 @@ body {
   text-align: center;
   font-family: Roboto;
   font-size: 20px;
-  font-style: normal;
   font-weight: 700;
   line-height: normal;
   letter-spacing: 0.6px;
-  display: flex;
-  justify-content: center;
   padding-top: 40px;
 }
 .backdrop__subtitle {
@@ -673,7 +717,6 @@ body {
   text-align: center;
   font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
   font-weight: 700;
   line-height: 30px;
   /* 187.5% */
@@ -726,26 +769,16 @@ body {
 .backdrop__subtext {
   color: #757575;
   font-family: Roboto;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
   /* 171.429% */
   letter-spacing: 0.42px;
 }
 .backdrop__link {
   color: #2196F3;
   font-family: Roboto;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
   letter-spacing: 0.42px;
   text-decoration-line: underline;
 }
 .backdrop__box {
-  display: flex;
-  justify-content: center;
   padding-top: 20px;
 }
 .backdrop__text {
