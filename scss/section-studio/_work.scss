@@ -1,28 +1,43 @@
 .work {
-    margin-bottom: 94px;
+    display: none;
+
+    @media screen and (min-width: 768px) {
+        display: none;
+    }
+
+    @media screen and (min-width: 1200px) {
+        display: block;
+        margin-bottom: 94px;
+    }
 
     &__title {
         @include title($letter: 0.03em, $line: 42px);
         margin-bottom: 50px;
-       animation-name:text-mou ;
-       animation-duration: 2s;
+        animation-name: text-mou;
+        animation-duration: 2s;
+
+     
     }
-    @keyframes text-mou{
-        0%{
-            transform: translate(0,-500px);
+
+    @keyframes text-mou {
+        0% {
+            transform: translate(0, -500px);
             opacity: 0;
         }
-        100%{
-            transform: translate(0,0);
+
+        100% {
+            transform: translate(0, 0);
             opacity: 1;
         }
     }
+
     &__text {
         width: 370px;
         height: 294px;
         flex-shrink: 0;
         background: url(<path-to-image>), lightgray 50% / cover no-repeat;
     }
+
     &__img {
         width: 370px;
         height: 70px;
@@ -30,10 +45,12 @@
         position: relative;
         bottom: 70px;
     }
+
     &__list {
         display: flex;
         gap: 30px;
     }
+
     &__subtext {
         color: $additionaltext-color;
         text-align: center;
@@ -47,15 +64,3 @@
         padding-bottom: 27px;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-

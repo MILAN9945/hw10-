@@ -1,27 +1,28 @@
 .adventage {
- @extend %time;
+    @extend %time;
 
     &__txt {
         align-items: center;
     }
+
     &__text:nth-child(1)::before {
         background-image: url(../images/antenna1.png);
     }
-    
+
     &__text:nth-child(2)::before {
         background-image: url(../images/clock1.png);
     }
-    
+
     &__text:nth-child(3)::before {
         background-image: url(../images/diagram1.png);
     }
-    
+
     &__text:nth-child(4)::before {
         background-image: url(../images/astronaut1.png);
     }
-    
+
     &__text::before {
-       @extend %title;
+        @extend %title;
 
         background-color: $additionaltext-color;
         content: "";
@@ -30,16 +31,28 @@
         background-position: center;
         margin-bottom: 30px;
     }
+
     &__list {
-        display: flex;
-        gap: 30px;
+       
+
+        @media screen and (min-width: 768px) {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+
+        @media screen and (min-width: 1200px) {
+            display: flex;
+            gap: 30px;
+        }
     }
-    
-    
-    
+
+
+
     &__title {
         width: 270px;
-        color:$title-color;
+        color: $title-color;
         font-family: Roboto;
         font-size: 14px;
         font-style: normal;
@@ -49,7 +62,7 @@
         text-transform: uppercase;
         margin-bottom: 10px;
     }
-    
+
     &__item {
         width: 270px;
         height: 72px;
@@ -63,14 +76,10 @@
         /* 171.429% */
         letter-spacing: 0.42px;
     }
+
     &__link::before {
         @extend %title;
         border-radius: 4px;
-        background:$additionaltext-color;
+        background: $additionaltext-color;
     }
 }
-
-
-
-
-

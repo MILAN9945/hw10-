@@ -1,10 +1,12 @@
 .team {
     background: $additionaltext-color;
-  @extend %time;
+    @extend %time;
+
     &__title {
         @include title();
         margin-bottom: 50px;
     }
+
     &__text {
         color: $text-color;
         text-align: center;
@@ -15,6 +17,7 @@
         letter-spacing: 0.48px;
         margin-top: 10px;
     }
+
     &__subtitle {
         color: $title-color;
         text-align: center;
@@ -24,22 +27,51 @@
         line-height: normal;
         letter-spacing: 0.48px;
     }
+
     &__item {
         background-color: $additionaltext-color;
         border-radius: 0px 0px 4px 4px;
         color: $text-color;
-        padding-bottom: 30px;
+        padding-bottom: 24px;
         box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+
+        @media screen and (min-width: 1200px) {
+            padding-bottom: 30px;
+        }
     }
+
     &__img {
-        height: 260px;
-        width: 270px;
+        width: 450px;
+        height: 460px;
+        flex-shrink: 0;
         margin-bottom: 30px;
+
+        @media screen and (min-width: 768px) {
+            width: 354px;
+            height: 374px;
+            flex-shrink: 0;
+        }
+
+        @media screen and (min-width: 1200px) {
+            height: 260px;
+            width: 270px;
+        }
     }
+
     &__list {
-        display: flex;
-        gap: 30px;
+       text-align: center;
+      
+        @media screen and (min-width: 768px) {
+            display: flex;
+          flex-wrap: wrap; 
+          gap: 30px;
+        }
+
+        @media screen and (min-width: 1200px) {
+          display: flex;
+        }
     }
+
     &__icon {
         fill: $text-color;
         cursor: pointer;
@@ -48,64 +80,45 @@
         &:hover {
             fill: $additionaltext-color;
             border-radius: 50px;
-            background-color:$accented-color ;
+            background-color: $accented-color ;
         }
-        
+
         &:focus {
             fill: $additionaltext-color;
             border-radius: 50px;
-            background-color:$accented-color ;
+            background-color: $accented-color ;
         }
     }
+
     &__iconphoto {
         @extend %main;
         width: 44px;
         height: 44px;
         align-items: center;
-        
+
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         border-radius: 50px;
 
         &:hover {
             background-color: $accented-color;
         }
-        
+
         &:focus {
             border-radius: 50px;
             background-color: $accented-color;
             fill: $additionaltext-color;
-        
+
         }
     }
-    
+
     &__subicon {
         width: 20px;
         height: 20px;
     }
-    
+
     &__sublist {
         @extend %main;
         gap: 10px;
         margin-top: 28px;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
