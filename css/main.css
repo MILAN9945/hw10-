@@ -42,14 +42,25 @@ button {
   margin-right: auto;
   width: 100%;
 }
+@media screen and (min-width: 480px) {
+  .container {
+    max-width: 480px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 @media screen and (min-width: 1200px) {
   .container {
     max-width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 
@@ -76,11 +87,6 @@ body {
 .footer__logo, .footer__sublogo, .header__logo, .header__sublogo {
   font-size: 26px;
   font-weight: 700;
-}
-
-.backdrop__box, .backdrop__title, .footer__iconphoto, .clients__list, .team__sublist, .team__iconphoto {
-  display: flex;
-  justify-content: center;
 }
 
 .header {
@@ -294,12 +300,6 @@ body {
   padding-top: 118px;
   padding-bottom: 198px;
 }
-@media screen and (min-width: 768px) {
-  .hero {
-    padding-top: 118px;
-    padding-bottom: 198px;
-  }
-}
 @media screen and (min-width: 1200px) {
   .hero {
     padding-top: 200px;
@@ -314,8 +314,7 @@ body {
   font-size: 26px;
   font-style: normal;
   font-weight: 900;
-  line-height: 42px;
-  /* 161.538% */
+  line-height: 42px; /* 161.538% */
   letter-spacing: 1.56px;
   text-transform: uppercase;
   margin-left: auto;
@@ -532,9 +531,8 @@ body {
   }
 }
 .team__img {
-  width: 450px;
-  height: 460px;
-  flex-shrink: 0;
+  width: 100%;
+  max-width: 100%;
   margin-bottom: 30px;
 }
 @media screen and (min-width: 768px) {
@@ -581,6 +579,8 @@ body {
   background-color: #2196F3;
 }
 .team__iconphoto {
+  display: flex;
+  justify-content: center;
   width: 44px;
   height: 44px;
   align-items: center;
@@ -600,20 +600,43 @@ body {
   height: 20px;
 }
 .team__sublist {
+  display: flex;
+  justify-content: center;
   gap: 10px;
   margin-top: 28px;
 }
 
 .clients__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 30px;
-  margin-top: 50px;
+  margin-top: 30px;
+}
+@media screen and (min-width: 1200px) {
+  .clients__list {
+    padding-top: 50px;
+  }
 }
 .clients__icons {
   border-radius: 4px;
+  width: 210px;
+  height: 92px;
   border: 1px solid #757575;
-  padding: 16px 32px 16px 32px;
+  padding: 16px 52px 16px 52px;
   display: block;
   outline: none;
+}
+@media screen and (min-width: 768px) {
+  .clients__icons {
+    width: 226px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .clients__icons {
+    width: 170px;
+    height: 92px;
+  }
 }
 .clients__icons:hover {
   border: 1px solid #2196F3;
@@ -697,6 +720,8 @@ body {
   margin-top: 20px;
 }
 .footer__iconphoto {
+  display: flex;
+  justify-content: center;
   width: 44px;
   height: 44px;
   align-items: center;

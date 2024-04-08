@@ -1,20 +1,41 @@
-
 .clients {
     @extend %time;
 
     &__list {
-       @extend %main;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
         gap: 30px;
-        margin-top: 50px;
-       
+        margin-top: 30px;
+
+
+
+        @media screen and (min-width: 768px) {}
+
+        @media screen and (min-width: 1200px) {
+            padding-top: 50px;
+        }
+
     }
 
     &__icons {
         border-radius: 4px;
+        width: 210px;
+        height: 92px;
         border: 1px solid $text-color;
-        padding: 16px 32px 16px 32px;
+        padding: 16px 52px 16px 52px;
         display: block;
         outline: none;
+
+        @media screen and (min-width: 768px) {
+            width: 226px;
+
+        }
+
+        @media screen and (min-width: 1200px) {
+            width: 170px;
+            height: 92px;
+        }
 
         &:hover {
             border: 1px solid $accented-color;
@@ -23,18 +44,20 @@
         &:focus {
             border: 1px solid $accented-color;
         }
+
         &:focus .clients-icon {
             fill: $accented-color;
         }
-        
+
         &:hover .clients-icon {
             fill: $accented-color;
         }
     }
 
     &__title {
-     @include title ()
+        @include title ()
     }
+
     &__icon {
         width: 106px;
         height: 60px;
