@@ -1,15 +1,20 @@
 .footer {
     background: $background-color;
-    padding-top: 60px;
+    padding-top: 64px;
     padding-bottom: 60px;
+
+    @media screen and (min-width: 768px) {}
+
+    @media screen and (min-width: 1200px) {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
 
 
     &__sublogo {
         color: $accented-color;
         font-family: Raleway;
-        font-size: 26px;
-        font-style: normal;
-        font-weight: 700;
+        @extend %logo;
         line-height: normal;
         letter-spacing: 0.78px;
     }
@@ -17,9 +22,8 @@
     &__logo {
         color: $additionaltext-color;
         font-family: Raleway;
-        font-size: 26px;
-        font-style: normal;
-        font-weight: 700;
+        @extend %logo;
+
         line-height: normal;
         letter-spacing: 0.78px;
     }
@@ -31,23 +35,20 @@
     &__address {
         color: $additionaltext-color;
         font-family: Roboto;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 24px;
+        @extend %contact;
         /* 171.429% */
         letter-spacing: 0.42px;
-        margin-top: 20px;
+        margin-top: 33px;
 
+        @media screen and (min-width: 1200px) {
+            margin-top: 20px;
+        }
     }
 
     &__gmail {
         color: rgba(255, 255, 255, 0.60);
         font-family: Roboto;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 24px;
+        @extend %contact;
         /* 171.429% */
         letter-spacing: 0.42px;
     }
@@ -55,16 +56,17 @@
     &__contact {
         color: rgba(255, 255, 255, 0.60);
         font-family: Roboto;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 24px;
+        @extend %contact;
         /* 171.429% */
         letter-spacing: 0.42px;
     }
 
     &__container {
-        display: flex;
+       text-align: center;
+       
+        @media screen and (min-width: 768px) {
+            display: flex; 
+        }
     }
 
     &__iconlist {
@@ -78,14 +80,16 @@
     }
 
     &__icon {
+
         margin-top: 20px;
     }
 
     &__iconphoto {
         display: flex;
+        justify-content: center;
         width: 44px;
         height: 44px;
-        justify-content: center;
+
         align-items: center;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -108,15 +112,22 @@
     &__iconsphoto {
         display: flex;
         flex-direction: column;
-        padding-top: 12px;
-        margin-left: 70px;
+        padding-top: 64px;
+        @media screen and (min-width: 768px) {
+            padding-top: 12px;
+            margin-left: 165px;
+        }
+
+        @media screen and (min-width: 1200px) {
+            padding-top: 12px;
+            margin-left: 70px;
+        }
     }
 
     &__texticon {
         color: $additionaltext-color;
         font-family: Roboto;
         font-size: 14px;
-        font-style: normal;
         font-weight: 700;
         line-height: normal;
         letter-spacing: 0.42px;

@@ -668,8 +668,14 @@ body {
 
 .footer {
   background: #2f303a;
-  padding-top: 60px;
+  padding-top: 64px;
   padding-bottom: 60px;
+}
+@media screen and (min-width: 1200px) {
+  .footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
 }
 .footer__sublogo {
   color: #2196F3;
@@ -691,7 +697,12 @@ body {
   font-family: Roboto;
   /* 171.429% */
   letter-spacing: 0.42px;
-  margin-top: 20px;
+  margin-top: 33px;
+}
+@media screen and (min-width: 1200px) {
+  .footer__address {
+    margin-top: 20px;
+  }
 }
 .footer__gmail {
   color: rgba(255, 255, 255, 0.6);
@@ -706,7 +717,12 @@ body {
   letter-spacing: 0.42px;
 }
 .footer__container {
-  display: flex;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .footer__container {
+    display: flex;
+  }
 }
 .footer__iconlist {
   display: flex;
@@ -742,8 +758,19 @@ body {
 .footer__iconsphoto {
   display: flex;
   flex-direction: column;
-  padding-top: 12px;
-  margin-left: 70px;
+  padding-top: 64px;
+}
+@media screen and (min-width: 768px) {
+  .footer__iconsphoto {
+    padding-top: 12px;
+    margin-left: 165px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer__iconsphoto {
+    padding-top: 12px;
+    margin-left: 70px;
+  }
 }
 .footer__texticon {
   color: #FFF;
