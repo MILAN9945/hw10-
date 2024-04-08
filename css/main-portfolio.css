@@ -533,6 +533,7 @@ body {
 }
 .footer__iconlist {
   display: flex;
+  justify-content: center;
   gap: 10px;
 }
 .footer__icons {

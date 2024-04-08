@@ -66,11 +66,13 @@
        
         @media screen and (min-width: 768px) {
             display: flex; 
+           
         }
     }
 
     &__iconlist {
         display: flex;
+        justify-content: center;
         gap: 10px;
     }
 
