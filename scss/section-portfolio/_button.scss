@@ -1,10 +1,22 @@
 .button {
-    padding-top: 94px;
+    padding-top: 60px;
 
+
+    @media screen and (min-width: 1200px) {
+        padding-top: 94px;
+    }
     &__list {
 
-       @extend %main;
+      display: flex;
+      flex-wrap: wrap;
+     
         gap: 8px;
+        @media screen and (min-width: 768px) {
+            justify-content: center; 
+            flex-wrap: nowrap;
+        }
+
+       
     }
 
    
