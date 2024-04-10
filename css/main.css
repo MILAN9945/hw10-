@@ -307,7 +307,7 @@ body {
   }
 }
 .hero__title {
-  width: 696px;
+  width: 100%;
   color: #FFF;
   text-align: center;
   font-family: Roboto;
@@ -724,8 +724,14 @@ body {
     display: flex;
   }
 }
+@media screen and (min-width: 1200px) {
+  .footer__container {
+    text-align: left;
+  }
+}
 .footer__iconlist {
   display: flex;
+  justify-content: center;
   gap: 10px;
 }
 .footer__icons {

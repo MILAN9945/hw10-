@@ -37,7 +37,6 @@
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.6px;
-    @extend %main;
     padding-top: 40px;
 }
 
@@ -127,7 +126,7 @@ padding-bottom: 4px;
 }
 
 &__box {
-    @extend %main;
+
     padding-top: 20px;
 }
 
