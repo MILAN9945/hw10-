@@ -19,16 +19,20 @@
 }
 
 &__pages {
-    display: flex;
-    margin-right: auto;
-    position: relative;
+   
 
     @media screen and (min-width: 768px ) {
+        display: flex;
+        align-items: center;
         gap: 53px;
     }  
     @media screen and (min-width: 1200px ) {
        gap: 51px;
     }
+}
+
+&__subpages{
+    position: relative;
 }
 &__navigation {
     display:none;
@@ -65,6 +69,7 @@
 
     @media screen and (min-width: 768px ) {
    flex-direction: column;
+   margin-left:auto;
    gap: 12px;
      }  
      @media screen and (min-width: 1200px ) {

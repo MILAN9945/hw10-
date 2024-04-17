@@ -111,8 +111,8 @@ body {
 }
 .header__pages {
   display: flex;
-  margin-right: auto;
-  position: relative;
+  gap: 32px;
+  align-items: center;
 }
 @media screen and (min-width: 768px) {
   .header__pages {
@@ -123,6 +123,9 @@ body {
   .header__pages {
     gap: 51px;
   }
+}
+.header__subpages {
+  position: relative;
 }
 .header__navigation {
   display: none;
@@ -160,6 +163,7 @@ body {
 @media screen and (min-width: 768px) {
   .header__contacts {
     flex-direction: column;
+    margin-left: auto;
     gap: 12px;
   }
 }

@@ -105,13 +105,10 @@ body {
   display: flex;
   align-items: center;
 }
-.header__pages {
-  display: flex;
-  margin-right: auto;
-  position: relative;
-}
 @media screen and (min-width: 768px) {
   .header__pages {
+    display: flex;
+    align-items: center;
     gap: 53px;
   }
 }
@@ -119,6 +116,9 @@ body {
   .header__pages {
     gap: 51px;
   }
+}
+.header__subpages {
+  position: relative;
 }
 .header__navigation {
   display: none;
@@ -156,6 +156,7 @@ body {
 @media screen and (min-width: 768px) {
   .header__contacts {
     flex-direction: column;
+    margin-left: auto;
     gap: 12px;
   }
 }
@@ -377,13 +378,15 @@ body {
   letter-spacing: 0.48px;
 }
 .main__list {
+  display: flex;
+  flex-direction: column;
   gap: 30px;
   margin-top: 40px;
   padding-bottom: 60px;
 }
 @media screen and (min-width: 768px) {
   .main__list {
-    display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     margin-top: 30px;
   }
@@ -431,17 +434,21 @@ body {
 }
 .main__box {
   position: relative;
-}
-.main__card:hover .overlay {
-  opacity: 1;
-  transform: translate(0);
+  max-width: 354px;
 }
 .main__foto:focus {
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
   outline: none;
 }
+.main__card {
+  max-width: 354px;
+}
 .main__card:hover {
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+}
+.main__card:hover .overlay {
+  opacity: 1;
+  transform: translate(0);
 }
 
 .idk-container {
