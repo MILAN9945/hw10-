@@ -296,6 +296,12 @@ body {
   fill: #757575;
 }
 
+.is-open {
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+}
+
 .hero {
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/box.jpg);
   background-color: #000;

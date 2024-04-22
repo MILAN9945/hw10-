@@ -12,6 +12,8 @@
     padding-top: 24px;
     padding-bottom: 25px;
 }  
+
+
     
 &__contair {
     display: flex;
@@ -223,6 +225,12 @@
         fill: $text-color;
     }
     
+}
+
+.is-open{
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
 }
 
 
