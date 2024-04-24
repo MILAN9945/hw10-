@@ -1,100 +1,109 @@
-
-
 .header {
     padding-top: 16px;
     padding-bottom: 16px;
 
-@media screen and (min-width: 768px ) {
-    padding-top: 21px;
-    padding-bottom: 26px;
-}  
-@media screen and (min-width: 1200px ) {
-    padding-top: 24px;
-    padding-bottom: 25px;
-}  
-
-
-    
-&__contair {
-    display: flex;
-    align-items: center;
-}
-
-&__pages {
-    display: flex;
-    gap: 32px;
-    align-items: center;
-
-    @media screen and (min-width: 768px ) {
-        gap: 53px;
-    }  
-    @media screen and (min-width: 1200px ) {
-       gap: 51px;
+    @media screen and (min-width: 768px) {
+        padding-top: 21px;
+        padding-bottom: 26px;
     }
-}
 
-&__subpages{
-    position: relative;
-}
-&__navigation {
-    display:none;
-    width: 100%;
-    
-    @media screen and (min-width: 768px ) {
-       display: flex;
-       margin-left: 88px;
-    }  
-    @media screen and (min-width: 1200px ) {
-     margin-left: 93px;
+    @media screen and (min-width: 1200px) {
+        padding-top: 24px;
+        padding-bottom: 25px;
     }
-}
 
-&__sublogo {
-    color:$accented-color ;
-    font-family: Raleway;
-    @extend %logo;
-    line-height: normal;
-    letter-spacing: 0.78px;
-}
-&__logo {
-    color: $title-color;
-    font-family: Raleway;
-    @extend %logo;
-    line-height: normal;
-    letter-spacing: 0.78px;
-    animation-name:logo-left ;
-    animation-duration: 2500ms;
-}
-&__contacts {
-    display: flex;
-    gap: 50px;
 
-    @media screen and (min-width: 768px ) {
-   flex-direction: column;
-   margin-left:auto;
-   gap: 12px;
-     }  
-     @media screen and (min-width: 1200px ) {
-        flex-direction: row;
-        gap: 30px;
-     }
-}
-@keyframes logo-left{
-    0%{
-        transform: translate(-500px,0);
-    opacity: 0;
+
+    &__contair {
+        display: flex;
+        align-items: center;
     }
-    100%{
-        transform: translate(0,0);
-        opacity:1 ;
+
+    &__pages {
+        display: flex;
+        gap: 32px;
+        align-items: center;
+
+        @media screen and (min-width: 768px) {
+            gap: 53px;
+        }
+
+        @media screen and (min-width: 1200px) {
+            gap: 51px;
+        }
     }
-    
+
+    &__subpages {
+        position: relative;
     }
+
+    &__navigation {
+        display: none;
+        width: 100%;
+
+        @media screen and (min-width: 768px) {
+            display: flex;
+            margin-left: 88px;
+        }
+
+        @media screen and (min-width: 1200px) {
+            margin-left: 93px;
+        }
+    }
+
+    &__sublogo {
+        color: $accented-color ;
+        font-family: Raleway;
+        @extend %logo;
+        line-height: normal;
+        letter-spacing: 0.78px;
+    }
+
+    &__logo {
+        color: $title-color;
+        font-family: Raleway;
+        @extend %logo;
+        line-height: normal;
+        letter-spacing: 0.78px;
+        animation-name: logo-left;
+        animation-duration: 2500ms;
+    }
+
+    &__contacts {
+        display: flex;
+        gap: 50px;
+
+
+        @media screen and (min-width: 768px) {
+            flex-direction: column;
+            margin-left: auto;
+            gap: 12px;
+        }
+
+        @media screen and (min-width: 1200px) {
+            flex-direction: row;
+            gap: 30px;
+        }
+    }
+
+    @keyframes logo-left {
+        0% {
+            transform: translate(-500px, 0);
+            opacity: 0;
+        }
+
+        100% {
+            transform: translate(0, 0);
+            opacity: 1;
+        }
+
+    }
+
     &__l {
         flex: content;
-    
+
     }
-    
+
     &__link {
         color: $title-color;
         font-family: Roboto;
@@ -107,10 +116,11 @@
         &:hover {
             color: $accented-color;
         }
-        
+
         &:focus {
             color: $accented-color;
         }
+
         &::after {
             border-radius: 2px;
             width: 100%;
@@ -124,20 +134,21 @@
             opacity: 0;
             transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
         }
-        
+
         &:hover::after {
             opacity: 1;
         }
-        
+
     }
+
     &__subborder {
         color: $accented-color;
     }
-    
+
     .border {
         color: $accented-color;
 
-        &::after{
+        &::after {
             border-radius: 2px;
             width: 100%;
             height: 3px;
@@ -150,7 +161,7 @@
             opacity: 1;
         }
     }
-    
+
     &__border {
         border-radius: 2px;
         width: 100%;
@@ -162,9 +173,9 @@
         display: block;
         top: 44px;
 
-       
+
     }
-    
+
     &__contactlink {
         font-weight: 500;
         font-size: 14px;
@@ -174,84 +185,62 @@
         display: flex;
         align-items: center;
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
+
         &:hover .heder-contact {
             color: $accented-color;
         }
-        
+
         &:focus .heder-contact {
             color: $accented-color;
         }
-        
+
         &:hover .services-icon {
             fill: $accented-color;
         }
-        
+
         &:hover .heder-contacts {
             color: $accented-color;
         }
-        
+
         &:focus .heder-contacts {
             color: $accented-color;
         }
-        
+
         &:focus {
             outline: none;
         }
-        
+
         &:hover .services-icons {
             fill: $accented-color;
         }
-        
+
         &:focus .services-icons {
             fill: $accented-color;
         }
-        
+
         &:focus .services-icon {
             fill: $accented-color;
         }
     }
+
     &__icon {
         width: 16px;
         height: 12px;
         margin-right: 10px;
         fill: $text-color;
     }
-    
+
     &__icons {
         width: 10px;
         height: 16px;
         margin-right: 10px;
         fill: $text-color;
     }
-    
+
 }
 
-.is-open{
+.is-open {
     opacity: 0;
     pointer-events: none;
     visibility: hidden;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

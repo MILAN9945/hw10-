@@ -59,11 +59,13 @@
                     </li>
                 </ul>
             </nav>
-            <button class="js-open-menu">
-                <svg>
-                    <use href=""></use>
+            <div class="mobile__fid">
+            <button class="mobile__subbutton , js-open-menu">
+                <svg class="mobile__subsvg">
+                    <use href="./images/symbol-defs.svg#line"></use>
                 </svg>
             </button>
+        </div>
         </div>
     </header>
     <main class="main">
@@ -438,15 +440,39 @@
             </form>
         </div>
     </div>
-        <div class="modal js-menu-container is-open">
-            <button class="mobail__button  js-close-menu" type="button">
-                <svg class="mobail__svg">
-                    <use href="./images/symbol-defs.svg#close"></use>
-                </svg>
-
-            </button>
+    <div class="modal js-menu-container is-open">
+        <div class="mobile__extence">
+        <button class="mobail__button  js-close-menu" type="button">
+            <svg class="mobail__svg">
+                <use href="./images/symbol-defs.svg#close"></use>
+            </svg>
+        </button>
+    </div>
+        <div class="mobail__box">
+            <ul class="mobail__list">
+                <li class="mobail__link">Студія</li>
+                <li class="mobail__link">Портфоліо</li>
+                <li class="mobail__link">Контакти</li>
+            </ul>
         </div>
-   
+        <div class="mobail__subbox">
+            <ul class="mobail__fidlist">
+                <li class="mobail__text">
+                    <a class="mobail__gmail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+                <li class="mobail__text">
+                    <a class="mobail__contact" href="tel:+380961111111">+38 096 111 11 11</a>
+                </li>
+            </ul>
+            <ul class="mobail__sublist">
+                <li class="mobail__subcontact">Instagram</li>
+                <li class="mobail__subcontact">Twitter</li>
+                <li class="mobail__subcontact">Facebook</li>
+                <li class="mobail__subcontact">LinkedIn</li>
+            </ul>
+        </div>
+    </div>
+
     <script src="./js/mobile-menu.js"></script>
     <script src="./js/modal.js" type="module"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
