@@ -3,22 +3,28 @@
 
     &__txt {
         align-items: center;
+        display: flex;
+        justify-content: center;
     }
 
     &__text:nth-child(1)::before {
         background-image: url(../images/antenna1.png);
+
     }
 
     &__text:nth-child(2)::before {
         background-image: url(../images/clock1.png);
+        
     }
 
     &__text:nth-child(3)::before {
         background-image: url(../images/diagram1.png);
+        
     }
 
     &__text:nth-child(4)::before {
         background-image: url(../images/astronaut1.png);
+    
     }
 
     &__text::before {
