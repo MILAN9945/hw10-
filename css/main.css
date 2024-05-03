@@ -1009,7 +1009,12 @@ body {
 }
 
 .mobile__fid {
-  padding-left: 250px;
+  margin-left: 250px;
+}
+@media screen and (min-width: 768px) {
+  .mobile__fid {
+    display: none;
+  }
 }
 
 .mobail__text {
