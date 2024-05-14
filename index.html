@@ -60,12 +60,12 @@
                 </ul>
             </nav>
             <div class="mobile__fid">
-            <button class="mobile__subbutton , js-open-menu">
-                <svg class="mobile__subsvg">
-                    <use href="./images/symbol-defs.svg#line"></use>
-                </svg>
-            </button>
-        </div>
+                <button class="mobile__subbutton , js-open-menu">
+                    <svg class="mobile__subsvg">
+                        <use href="./images/symbol-defs.svg#line"></use>
+                    </svg>
+                </button>
+            </div>
         </div>
     </header>
     <main class="main">
@@ -144,7 +144,12 @@
                 <h2 data-aos="zoom-in" data-aos-duration="2500" class="team__title">Наша команда </h2>
                 <ul data-aos="zoom-in" data-aos-duration="2500" class="team__list">
                     <li class="team__item">
-                        <img class="team__img" src="./images/team_1.jpg" width="270" alt="працівник1">
+                        <picture>
+                            <source media="(min-width: 1200px)" srcset="./images/desctope/team_1-desctope@1x.webp 1x, ./images/desctope/team_1-desctope@2x.webp 2x">
+                            <source media="(min-width: 768px)" srcset="./images/tablet/team_1-tablet@1x.webp 1x, ./images/tablet/team_1-tablet@2x.webp 2x">
+                            <source media="(min-width: 480px)" srcset="./images/mobile/team_1-mobile@1x.webp 1x, ./images/mobile/team_1-mobile@1x.webp 2x">
+                            <img class="team__img" src="./images/team_1.jpg" width="270" alt="працівник1">
+                        </picture>
                         <h3 class="team__subtitle">Ігор Дем'яненко</h3>
                         <p class="team__text">Product Designer</p>
                         <ul class="team__sublist">
@@ -179,7 +184,12 @@
                         </ul>
                     </li>
                     <li class="team__item">
+                        <picture>
+                            <source media="(min-width: 1200px)" srcset="./images/desctope/team_2-desctope@1x.webp 1x, ./images/desctope/team_2-desctope@2x.webp 2x">
+                            <source media="(min-width: 768px)" srcset="./images/tablet/team_2-tablet@1x.webp 1x, ./images/tablet/team_2-tablet@2x.webp 2x">
+                            <source media="(min-width: 480px)" srcset="./images/mobile/team_2-mobile@1x.webp 1x, ./images/mobile/team_2-mobile@2x.webp 2x">
                         <img class="team__img" src="./images/team_2.jpg" width="270" alt="працівник2">
+                    </picture>
                         <h3 class="team__subtitle">Ольга Рєпіна</h3>
                         <p class="team__text">Frontend Developer</p>
                         <ul class="team__sublist">
@@ -442,12 +452,12 @@
     </div>
     <div class="modal js-menu-container is-open">
         <div class="mobile__extence">
-        <button class="mobail__button  js-close-menu" type="button">
-            <svg class="mobail__svg">
-                <use href="./images/symbol-defs.svg#close"></use>
-            </svg>
-        </button>
-    </div>
+            <button class="mobail__button  js-close-menu" type="button">
+                <svg class="mobail__svg">
+                    <use href="./images/symbol-defs.svg#close"></use>
+                </svg>
+            </button>
+        </div>
         <div class="mobail__box">
             <ul class="mobail__list">
                 <li class="mobail__link">Студія</li>
