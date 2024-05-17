@@ -940,6 +940,12 @@ body {
 .mobail {
   width: 100vw;
   height: 100%;
+  padding: 48px 0 48px 40px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #FFF;
+  z-index: 2;
 }
 
 .mobail__link {
