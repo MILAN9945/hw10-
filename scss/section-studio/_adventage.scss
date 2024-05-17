@@ -30,7 +30,7 @@
     &__text::before {
         @extend %title;
 
-        background-color: $additionaltext-color;
+        background-color: $before-bacground;
         content: "";
         display: block;
         background-repeat: no-repeat;

@@ -381,7 +381,7 @@ body {
   background-image: url(../images/astronaut1.png);
 }
 .adventage__text::before {
-  background-color: #FFF;
+  background-color: #F5F4FA;
   content: "";
   display: block;
   background-repeat: no-repeat;
@@ -499,7 +499,7 @@ body {
 }
 
 .team {
-  background: #FFF;
+  background: #F5F4FA;
 }
 .team__title {
   color: #000;
@@ -937,7 +937,7 @@ body {
   margin-bottom: 10px;
 }
 
-.modal {
+.mobail {
   width: 100vw;
   height: 100%;
 }
